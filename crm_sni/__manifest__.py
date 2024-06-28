@@ -23,7 +23,7 @@
     'name': 'CRM: SNI',
     'version': '14.0.0.0.0',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Adding twi SNI-fields.',
+    'summary': 'Adding two SNI-fields.',
     'category': 'Website',
     'description': """
 Adding SNI fields
@@ -37,8 +37,9 @@ Adding SNI fields
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-crm',
-    'depends': [ ],
+    'depends': ['crm', 'res_sni' ],
     'data': [
+        'views/views.xml',
     ],
     'application': False,
 }
