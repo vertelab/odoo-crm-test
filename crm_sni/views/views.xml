@@ -18,9 +18,11 @@
         <field name="model">res.partner</field>
         <field name="inherit_id" ref="base.view_partner_form" />
         <field name="arch" type="xml">
-            <field name="funktion" position="after">
+            <field name="vat" position="after">
+<!--
                 <field name="sni_ids" operator="child_of" />
                 <field name="sni_id" operator="child_of" />
+-->
             </field>
 <!--
             <filter name="group_country" position="after">
