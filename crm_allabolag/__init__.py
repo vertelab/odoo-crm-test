@@ -1,1 +1,1 @@
-from * include models
+from . import models

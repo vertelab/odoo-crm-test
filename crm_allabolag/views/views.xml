@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <record id="view_partner_form" model="ir.ui.view">
-            <field name="name">res.partner.form.allabolag</field>
-            <field name="model">res.partner</field>
-            <field name="inherit_id" ref="base.view_partner_form" />
+        <record id="crm_lead_view_form" model="ir.ui.view">
+            <field name="name">crm.lead.form.allabolag</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_lead_view_form" />
             <field name="arch" type="xml">
+                <field name="team_id" position="after">
+                    <field name="company_registry" />
+                </field>
                 <notebook position="inside">
                     <page name="financial_information" string="Financial Information">
                         <group name="container_row_2">
