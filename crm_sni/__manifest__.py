@@ -37,9 +37,9 @@ Adding SNI fields
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-crm',
-    'depends': ['crm', 'res_sni' ],
+    'depends': ['crm', 'partner_sni' ],
     'data': [
-        'views/views.xml',
+        'views/crm_lead_views.xml',
     ],
     'application': False,
 }
