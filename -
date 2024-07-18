@@ -1,0 +1,1369 @@
+2024-07-16 08:04:46,672 75030 INFO ? odoo: Odoo version 14.0-20231205 
+2024-07-16 08:04:46,672 75030 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-07-16 08:04:46,673 75030 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/14.0', '/usr/share/odoo-base', '/usr/share/odoo-crm'] 
+2024-07-16 08:04:46,673 75030 INFO ? odoo: database: odoo@default:default 
+2024-07-16 08:04:46,808 75030 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-07-16 08:04:46,951 75030 INFO ? odoo.service.server: HTTP service (werkzeug) running on odoo14.lxd:8069 
+2024-07-16 08:04:54,575 75030 INFO ? odoo.http: HTTP Configuring static files 
+2024-07-16 08:04:54,589 75030 INFO d3 odoo.modules.loading: loading 1 modules... 
+2024-07-16 08:04:54,604 75030 INFO d3 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-16 08:04:54,618 75030 INFO d3 odoo.modules.loading: loading 38 modules... 
+2024-07-16 08:04:55,099 75030 WARNING d3 py.warnings: /usr/lib/python3/dist-packages/html5lib/_trie/_base.py:3: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping
+ 
+2024-07-16 08:04:55,234 75030 WARNING d3 odoo.models: The model res.partner.allabolag.mixin has no _description 
+2024-07-16 08:04:55,254 75030 INFO d3 odoo.modules.loading: 38 modules loaded in 0.64s, 0 queries (+0 extra) 
+2024-07-16 08:04:55,460 75030 INFO d3 odoo.modules.loading: Modules loaded. 
+2024-07-16 08:04:55,469 75030 INFO d3 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-16 08:04:55,478 75030 INFO d3 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-16 08:04:55,714 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:55] "POST /web/dataset/call_kw/crm.allabolag.mining/read HTTP/1.1" 200 - 42 0.079 1.057
+2024-07-16 08:04:55,715 75030 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-07-16 08:04:55,756 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:55] "POST /web/dataset/call_kw/mail.followers/read HTTP/1.1" 200 - 3 0.002 0.006
+2024-07-16 08:04:55,771 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:55] "POST /web/dataset/call_kw/mail.message/read HTTP/1.1" 200 - 5 0.003 0.007
+2024-07-16 08:04:56,011 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:56] "POST /web/dataset/call_kw/crm.allabolag.mining/read HTTP/1.1" 200 - 2 0.004 0.015
+2024-07-16 08:04:56,103 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:56] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 7 0.039 0.057
+2024-07-16 08:04:56,107 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:56] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 6 0.049 0.031
+2024-07-16 08:04:56,126 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:56] "POST /mail/read_followers HTTP/1.1" 200 - 18 0.089 0.037
+2024-07-16 08:04:56,128 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:56] "POST /mail/thread/data HTTP/1.1" 200 - 5 0.018 0.070
+2024-07-16 08:04:56,132 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:56] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.007 0.053
+2024-07-16 08:04:58,048 75030 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=1 
+2024-07-16 08:04:59,540 75030 WARNING d3 odoo.http: {'orgnr': '556588-3534', 'jurnamn': 'Toyota Industries Europe AB', 'ftgtyp': 'ab', 'bolpres': '', 'abv_hgrupp': 'Bank, Finans & Försäkring', 'abv_ugrupp': 'Holdingverksamhet i icke-finansiella koncerner', 'ba_postort': 'Mjölby', 'companyPresentation': {}, 'linkTo': '5565883534/toyota-industries-europe-ab', 'score': {'0': '1.000'}, 'remarks': [], 'hasremarks': False, 'relatedmetadata': [], 'hasrelatedmetadata': False, 'status': ''} 
+2024-07-16 08:04:59,543 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:59] "POST /web/dataset/call_button HTTP/1.1" 200 - 3 0.004 1.496
+2024-07-16 08:04:59,659 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:59] "POST /web/dataset/call_kw/crm.allabolag.mining/read HTTP/1.1" 200 - 2 0.002 0.009
+2024-07-16 08:04:59,722 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:59] "POST /mail/read_followers HTTP/1.1" 200 - 8 0.041 0.019
+2024-07-16 08:04:59,742 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:59] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 7 0.046 0.030
+2024-07-16 08:04:59,746 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:59] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 4 0.033 0.030
+2024-07-16 08:04:59,747 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:59] "POST /mail/thread/data HTTP/1.1" 200 - 3 0.019 0.028
+2024-07-16 08:04:59,750 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:59] "POST /web/dataset/call_kw/crm.allabolag.mining/read HTTP/1.1" 200 - 2 0.013 0.027
+2024-07-16 08:04:59,788 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:59] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.000 0.021
+2024-07-16 08:04:59,789 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:59] "POST /mail/thread/data HTTP/1.1" 200 - 3 0.009 0.020
+2024-07-16 08:04:59,798 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:59] "POST /mail/read_followers HTTP/1.1" 200 - 8 0.032 0.022
+2024-07-16 08:04:59,812 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:59] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 7 0.035 0.023
+2024-07-16 08:04:59,813 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:04:59] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.000 0.010
+2024-07-16 08:05:45,720 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:05:45] "POST /longpolling/poll HTTP/1.1" 200 - 21 0.043 50.226
+2024-07-16 08:06:35,778 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:06:35] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.005 50.013
+2024-07-16 08:07:27,825 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:07:27] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.005 50.013
+2024-07-16 08:08:19,871 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:08:19] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.003 50.013
+2024-07-16 08:09:11,911 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:09:11] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.005 50.012
+2024-07-16 08:10:03,950 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:10:03] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.003 50.013
+2024-07-16 08:10:55,991 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:10:55] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.003 50.013
+2024-07-16 08:11:48,031 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:11:48] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.003 50.015
+2024-07-16 08:12:27,812 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:27] "POST /web/dataset/call_button HTTP/1.1" 200 - 78 0.049 0.049
+2024-07-16 08:12:27,888 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:27] "POST /web/dataset/search_read HTTP/1.1" 200 - 10 0.008 0.011
+2024-07-16 08:12:36,816 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:36] "POST /web/dataset/call_kw/crm.lead/read HTTP/1.1" 200 - 51 0.029 0.030
+2024-07-16 08:12:36,856 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:36] "POST /web/dataset/call_kw/mail.followers/read HTTP/1.1" 200 - 3 0.001 0.006
+2024-07-16 08:12:36,879 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:36] "POST /web/dataset/call_kw/mail.message/read HTTP/1.1" 200 - 5 0.007 0.008
+2024-07-16 08:12:36,924 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:36] "POST /web/dataset/call_kw/crm.stage/search_read HTTP/1.1" 200 - 5 0.004 0.005
+2024-07-16 08:12:36,944 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:36] "POST /web/dataset/call_kw/crm.team/name_search HTTP/1.1" 200 - 10 0.011 0.011
+2024-07-16 08:12:36,957 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:36] "POST /web/dataset/call_kw/crm.stage/name_get HTTP/1.1" 200 - 2 0.001 0.005
+2024-07-16 08:12:37,161 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:37] "POST /web/dataset/call_kw/crm.lead/read HTTP/1.1" 200 - 3 0.039 0.025
+2024-07-16 08:12:37,233 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:37] "POST /mail/thread/data HTTP/1.1" 200 - 9 0.064 0.047
+2024-07-16 08:12:37,269 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:37] "POST /mail/read_followers HTTP/1.1" 200 - 14 0.114 0.049
+2024-07-16 08:12:37,284 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:37] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 27 0.167 0.034
+2024-07-16 08:12:37,300 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:37] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 12 0.141 0.048
+2024-07-16 08:12:37,318 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:37] "POST /web/dataset/call_kw/crm.lead/read HTTP/1.1" 200 - 3 0.014 0.019
+2024-07-16 08:12:37,330 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:37] "POST /mail/thread/data HTTP/1.1" 200 - 3 0.010 0.010
+2024-07-16 08:12:37,344 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:37] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 7 0.024 0.024
+2024-07-16 08:12:37,345 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:37] "POST /mail/read_followers HTTP/1.1" 200 - 9 0.033 0.021
+2024-07-16 08:12:37,352 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:37] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.000 0.005
+2024-07-16 08:12:37,378 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:37] "POST /web/dataset/call_kw/mail.message/mark_all_as_read HTTP/1.1" 200 - 5 0.004 0.009
+2024-07-16 08:12:37,395 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:37] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.000 0.005
+2024-07-16 08:12:40,075 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:12:40] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.004 50.014
+2024-07-16 08:13:30,114 75030 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:13:30] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.004 50.014
+2024-07-16 08:14:02,662 75030 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-16 08:14:02,663 75030 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-16 08:14:02,712 75030 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+2024-07-16 08:14:02,723 75030 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 173, in loop
+    conn.poll()
+psycopg2.InterfaceError: connection already closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 187, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 182, in loop
+    event.set()
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 153, in __exit__
+    self.close()
+  File "<decorator-gen-6>", line 2, in close
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 101, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 366, in close
+    return self._close(False)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 392, in _close
+    self.rollback()
+  File "<decorator-gen-10>", line 2, in rollback
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 101, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 466, in rollback
+    result = self._cnx.rollback()
+psycopg2.InterfaceError: connection already closed
+2024-07-16 08:14:08,501 75147 INFO ? odoo: Odoo version 14.0-20231205 
+2024-07-16 08:14:08,501 75147 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-07-16 08:14:08,502 75147 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/14.0', '/usr/share/odoo-base', '/usr/share/odoo-crm'] 
+2024-07-16 08:14:08,502 75147 INFO ? odoo: database: odoo@default:default 
+2024-07-16 08:14:08,748 75147 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-07-16 08:14:08,950 75147 INFO ? odoo.service.server: HTTP service (werkzeug) running on odoo14.lxd:8069 
+2024-07-16 08:14:12,070 75147 INFO ? odoo.http: HTTP Configuring static files 
+2024-07-16 08:14:12,086 75147 INFO d3 odoo.modules.loading: loading 1 modules... 
+2024-07-16 08:14:12,111 75147 INFO d3 odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2024-07-16 08:14:12,124 75147 INFO d3 odoo.modules.loading: loading 38 modules... 
+2024-07-16 08:14:12,499 75147 WARNING d3 py.warnings: /usr/lib/python3/dist-packages/html5lib/_trie/_base.py:3: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping
+ 
+2024-07-16 08:14:12,571 75147 WARNING d3 odoo.models: The model res.partner.allabolag.mixin has no _description 
+2024-07-16 08:14:12,583 75147 INFO d3 odoo.modules.loading: 38 modules loaded in 0.46s, 0 queries (+0 extra) 
+2024-07-16 08:14:12,786 75147 INFO d3 odoo.modules.loading: Modules loaded. 
+2024-07-16 08:14:12,790 75147 INFO d3 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-16 08:14:12,943 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:12] "POST /web/action/load HTTP/1.1" 200 - 48 0.038 0.833
+2024-07-16 08:14:13,075 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:13] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 82 0.043 0.057
+2024-07-16 08:14:13,161 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:13] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.029 0.020
+2024-07-16 08:14:13,198 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:13] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.006
+2024-07-16 08:14:16,625 75147 INFO d3 odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['CRM: Allabolag'] to user admin #2 via 10.123.176.1 
+2024-07-16 08:14:16,626 75147 INFO d3 odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['CRM: Allabolag'] to user admin #2 via 10.123.176.1 
+2024-07-16 08:14:16,627 75147 INFO d3 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['CRM: Allabolag'] to user admin #2 via 10.123.176.1 
+2024-07-16 08:14:17,650 75147 INFO d3 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 10.123.176.1 
+2024-07-16 08:14:17,687 75147 INFO d3 odoo.modules.loading: loading 1 modules... 
+2024-07-16 08:14:17,701 75147 INFO d3 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-16 08:14:17,765 75147 INFO d3 odoo.modules.loading: updating modules list 
+2024-07-16 08:14:17,768 75147 INFO d3 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 10.123.176.1 
+2024-07-16 08:14:18,548 75147 INFO d3 odoo.modules.loading: loading 38 modules... 
+2024-07-16 08:14:18,615 75147 WARNING d3 odoo.models: The model res.partner.allabolag.mixin has no _description 
+2024-07-16 08:14:18,615 75147 INFO d3 odoo.modules.loading: Loading module crm_allabolag (35/38) 
+2024-07-16 08:14:18,698 75147 INFO d3 odoo.modules.registry: module crm_allabolag: creating or updating database tables 
+2024-07-16 08:14:18,719 75147 WARNING d3 odoo.addons.base.models.ir_model: Two fields (revenue_to, revenue_from) of crm.allabolag.mining() have the same label: Revenue. 
+2024-07-16 08:14:18,831 75147 INFO d3 odoo.modules.loading: loading crm_allabolag/views/views.xml 
+2024-07-16 08:14:18,850 75147 INFO d3 odoo.addons.base.models.ir_ui_view: Element '<field name="reffered">' cannot be located in parent view
+
+View name: crm.lead.form.allabolag
+Error context:
+ view: ir.ui.view(590,)
+ xmlid: crm_lead_view_form
+ view.model: crm.lead
+ view.parent: ir.ui.view(536,)
+ file: /usr/share/odoo-crm/crm_allabolag/views/views.xml
+ 
+2024-07-16 08:14:18,853 75147 WARNING d3 odoo.modules.loading: Transient module states were reset 
+2024-07-16 08:14:18,858 75147 ERROR d3 odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 677, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 580, in _tag_record
+    record = model._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4236, in _load_records
+    data['record']._load_records_write(data['values'])
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1858, in _load_records_write
+    super(View, self)._load_records_write(values)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4160, in _load_records_write
+    self.write(values)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 507, in write
+    res = super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3719, in write
+    fields[0].determine_inverse(real_recs)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1207, in determine_inverse
+    determine(self.inverse, records)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 82, in determine
+    return needle(*args)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 307, in _inverse_arch
+    view.write(data)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 507, in write
+    res = super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3709, in write
+    real_recs._validate_fields(vals, inverse_fields)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1270, in _validate_fields
+    check(self)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 415, in _check_xml
+    raise ValidationError(_(
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 392, in _check_xml
+    view_def = view.read_combined(['arch'])
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 816, in read_combined
+    arch = root.apply_view_inheritance(arch_tree, self.model)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 757, in apply_view_inheritance
+    return self._apply_view_inheritance(source, inherit_tree)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 765, in _apply_view_inheritance
+    source = view.apply_inheritance_specs(source, arch_tree)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 742, in apply_inheritance_specs
+    self.handle_view_error(str(e))
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 680, in handle_view_error
+    raise ValueError(formatted_message).with_traceback(from_traceback) from from_exception
+odoo.exceptions.ValidationError: Error while validating view:
+
+Element '<field name="reffered">' cannot be located in parent view
+
+View name: crm.lead.form.allabolag
+Error context:
+ view: ir.ui.view(590,)
+ xmlid: crm_lead_view_form
+ view.model: crm.lead
+ view.parent: ir.ui.view(536,)
+ file: /usr/share/odoo-crm/crm_allabolag/views/views.xml
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 89, in new
+    odoo.modules.load_modules(registry._db, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 455, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 347, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 69, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 733, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 799, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 719, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 677, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 681, in _tag_root
+    raise ParseError('while parsing %s:%s, near\n%s' % (
+odoo.tools.convert.ParseError: while parsing /usr/share/odoo-crm/crm_allabolag/views/views.xml:4, near
+<record id="crm_lead_view_form" model="ir.ui.view">
+            <field name="name">crm.lead.form.allabolag</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_lead_view_form"/>
+            <field name="arch" type="xml">
+                <data><field name="team_id" position="after">
+                    <field name="company_registry"/>
+                </field>
+                <field name="reffered" position="after">
+                    <field name="linkTo"/>
+                </field>
+                
+                <notebook position="inside">
+                    <page name="financial_information" string="Financial Information">
+                        <group name="container_row_2">
+                            <group string="Summary" name="summary" priority="1">
+                                <field name="summary_revenue"/>
+                                <field name="summary_profit_ebit"/>
+                                <field name="summary_net_sales_change"/>
+                                <field name="summary_profit_margin"/>
+                                <field name="summary_solvency"/>
+                                <field name="summary_cash_flow"/>
+                            </group>
+                            <group name="kpi" string="KPI" priority="2">
+                                <field name="kpi_no_employees"/>
+                            </group>
+                        </group>
+                        <group string="Business Summary" name="business_summary" priority="3">
+                            <field name="summary_purpose"/>
+                        </group>
+                    </page>
+                </notebook>
+            </data></field>
+        </record>
+2024-07-16 08:14:18,869 75147 ERROR d3 odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 677, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 580, in _tag_record
+    record = model._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4236, in _load_records
+    data['record']._load_records_write(data['values'])
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1858, in _load_records_write
+    super(View, self)._load_records_write(values)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4160, in _load_records_write
+    self.write(values)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 507, in write
+    res = super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3719, in write
+    fields[0].determine_inverse(real_recs)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1207, in determine_inverse
+    determine(self.inverse, records)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 82, in determine
+    return needle(*args)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 307, in _inverse_arch
+    view.write(data)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 507, in write
+    res = super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3709, in write
+    real_recs._validate_fields(vals, inverse_fields)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1270, in _validate_fields
+    check(self)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 415, in _check_xml
+    raise ValidationError(_(
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 392, in _check_xml
+    view_def = view.read_combined(['arch'])
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 816, in read_combined
+    arch = root.apply_view_inheritance(arch_tree, self.model)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 757, in apply_view_inheritance
+    return self._apply_view_inheritance(source, inherit_tree)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 765, in _apply_view_inheritance
+    source = view.apply_inheritance_specs(source, arch_tree)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 742, in apply_inheritance_specs
+    self.handle_view_error(str(e))
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 680, in handle_view_error
+    raise ValueError(formatted_message).with_traceback(from_traceback) from from_exception
+odoo.exceptions.ValidationError: Error while validating view:
+
+Element '<field name="reffered">' cannot be located in parent view
+
+View name: crm.lead.form.allabolag
+Error context:
+ view: ir.ui.view(590,)
+ xmlid: crm_lead_view_form
+ view.model: crm.lead
+ view.parent: ir.ui.view(536,)
+ file: /usr/share/odoo-crm/crm_allabolag/views/views.xml
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 696, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 370, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 358, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 919, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 544, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1374, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1362, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 404, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 391, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-79>", line 2, in button_immediate_upgrade
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 72, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 634, in button_immediate_upgrade
+    return self._button_immediate_function(type(self).button_upgrade)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 572, in _button_immediate_function
+    modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 89, in new
+    odoo.modules.load_modules(registry._db, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 455, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 347, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 69, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 733, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 799, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 719, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 677, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 681, in _tag_root
+    raise ParseError('while parsing %s:%s, near\n%s' % (
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 652, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 317, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+odoo.tools.convert.ParseError: while parsing /usr/share/odoo-crm/crm_allabolag/views/views.xml:4, near
+<record id="crm_lead_view_form" model="ir.ui.view">
+            <field name="name">crm.lead.form.allabolag</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_lead_view_form"/>
+            <field name="arch" type="xml">
+                <data><field name="team_id" position="after">
+                    <field name="company_registry"/>
+                </field>
+                <field name="reffered" position="after">
+                    <field name="linkTo"/>
+                </field>
+                
+                <notebook position="inside">
+                    <page name="financial_information" string="Financial Information">
+                        <group name="container_row_2">
+                            <group string="Summary" name="summary" priority="1">
+                                <field name="summary_revenue"/>
+                                <field name="summary_profit_ebit"/>
+                                <field name="summary_net_sales_change"/>
+                                <field name="summary_profit_margin"/>
+                                <field name="summary_solvency"/>
+                                <field name="summary_cash_flow"/>
+                            </group>
+                            <group name="kpi" string="KPI" priority="2">
+                                <field name="kpi_no_employees"/>
+                            </group>
+                        </group>
+                        <group string="Business Summary" name="business_summary" priority="3">
+                            <field name="summary_purpose"/>
+                        </group>
+                    </page>
+                </notebook>
+            </data></field>
+        </record>
+2024-07-16 08:14:18,876 75147 INFO d3 odoo.modules.loading: loading 1 modules... 
+2024-07-16 08:14:18,889 75147 INFO d3 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-16 08:14:18,899 75147 INFO d3 odoo.modules.loading: loading 38 modules... 
+2024-07-16 08:14:18,969 75147 WARNING d3 odoo.models: The model res.partner.allabolag.mixin has no _description 
+2024-07-16 08:14:18,971 75147 INFO d3 odoo.modules.loading: 38 modules loaded in 0.07s, 0 queries (+0 extra) 
+2024-07-16 08:14:19,012 75147 INFO d3 odoo.modules.loading: Modules loaded. 
+2024-07-16 08:14:19,016 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:19] "POST /web/dataset/call_button HTTP/1.1" 200 - 2122 0.769 1.630
+2024-07-16 08:14:28,625 75147 INFO d3 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-16 08:14:28,739 75147 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-07-16 08:14:45,321 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:45] "POST /web/action/run HTTP/1.1" 200 - 49 0.096 0.042
+2024-07-16 08:14:45,328 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:45] "POST /web/action/run HTTP/1.1" 200 - 73 0.124 0.074
+2024-07-16 08:14:45,407 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:45] "POST /web/dataset/call_kw/crm.lead/read_progress_bar HTTP/1.1" 200 - 7 0.014 0.013
+2024-07-16 08:14:45,408 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:45] "POST /web/dataset/call_kw/crm.lead/web_read_group HTTP/1.1" 200 - 13 0.021 0.012
+2024-07-16 08:14:45,460 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:45] "POST /web/dataset/search_read HTTP/1.1" 200 - 15 0.011 0.012
+2024-07-16 08:14:45,493 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:45] "POST /web/dataset/call_kw/crm.stage/read HTTP/1.1" 200 - 3 0.002 0.005
+2024-07-16 08:14:47,787 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:47] "POST /web/dataset/call_kw/mail.followers/load_views HTTP/1.1" 200 - 16 0.043 0.019
+2024-07-16 08:14:47,820 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:47] "POST /web/dataset/call_kw/mail.activity/load_views HTTP/1.1" 200 - 25 0.058 0.032
+2024-07-16 08:14:47,821 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:47] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 21 0.052 0.034
+2024-07-16 08:14:47,910 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:47] "POST /web/dataset/call_kw/crm.lead/read HTTP/1.1" 200 - 53 0.026 0.031
+2024-07-16 08:14:47,955 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:47] "POST /web/dataset/call_kw/mail.followers/read HTTP/1.1" 200 - 3 0.005 0.009
+2024-07-16 08:14:47,966 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:47] "POST /web/dataset/call_kw/mail.message/read HTTP/1.1" 200 - 5 0.009 0.011
+2024-07-16 08:14:48,005 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:48] "POST /web/dataset/call_kw/crm.stage/search_read HTTP/1.1" 200 - 3 0.003 0.005
+2024-07-16 08:14:48,014 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:48] "POST /web/dataset/call_kw/crm.team/name_search HTTP/1.1" 200 - 3 0.004 0.008
+2024-07-16 08:14:48,038 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:48] "POST /web/dataset/call_kw/crm.stage/name_get HTTP/1.1" 200 - 2 0.001 0.004
+2024-07-16 08:14:48,261 75147 ERROR d3 odoo.sql_db: bad query: SELECT "crm_lead"."id" as "id", "crm_lead"."name" as "name", "crm_lead"."user_id" as "user_id", "crm_lead"."company_id" as "company_id", "crm_lead"."referred" as "referred", "crm_lead"."description" as "description", "crm_lead"."active" as "active", "crm_lead"."type" as "type", "crm_lead"."priority" as "priority", "crm_lead"."team_id" as "team_id", "crm_lead"."stage_id" as "stage_id", "crm_lead"."color" as "color", "crm_lead"."expected_revenue" as "expected_revenue", "crm_lead"."prorated_revenue" as "prorated_revenue", "crm_lead"."date_closed" as "date_closed", "crm_lead"."date_action_last" as "date_action_last", "crm_lead"."date_open" as "date_open", "crm_lead"."day_open" as "day_open", "crm_lead"."day_close" as "day_close", "crm_lead"."date_last_stage_update" as "date_last_stage_update", "crm_lead"."date_conversion" as "date_conversion", "crm_lead"."date_deadline" as "date_deadline", "crm_lead"."partner_id" as "partner_id", "crm_lead"."contact_name" as "contact_name", "crm_lead"."partner_name" as "partner_name", "crm_lead"."function" as "function", "crm_lead"."title" as "title", "crm_lead"."email_from" as "email_from", "crm_lead"."phone" as "phone", "crm_lead"."mobile" as "mobile", "crm_lead"."phone_state" as "phone_state", "crm_lead"."email_state" as "email_state", "crm_lead"."website" as "website", "crm_lead"."lang_id" as "lang_id", "crm_lead"."street" as "street", "crm_lead"."street2" as "street2", "crm_lead"."zip" as "zip", "crm_lead"."city" as "city", "crm_lead"."state_id" as "state_id", "crm_lead"."country_id" as "country_id", "crm_lead"."probability" as "probability", "crm_lead"."automated_probability" as "automated_probability", "crm_lead"."lost_reason" as "lost_reason", "crm_lead"."summary_revenue" as "summary_revenue", "crm_lead"."summary_profit_ebit" as "summary_profit_ebit", "crm_lead"."summary_purpose" as "summary_purpose", "crm_lead"."summary_state" as "summary_state", "crm_lead"."summary_registry_year" as "summary_registry_year", "crm_lead"."summary_parent_company" as "summary_parent_company", "crm_lead"."kpi_no_employees" as "kpi_no_employees", "crm_lead"."kpi_revenue_employees" as "kpi_revenue_employees", "crm_lead"."summary_net_sales_change" as "summary_net_sales_change", "crm_lead"."summary_profit_margin" as "summary_profit_margin", "crm_lead"."summary_solvency" as "summary_solvency", "crm_lead"."summary_cash_flow" as "summary_cash_flow", "crm_lead"."remarkCode" as "remarkCode", "crm_lead"."remarkDescription" as "remarkDescription", "crm_lead"."remarkDate" as "remarkDate", "crm_lead"."company_registry" as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"."linkTo" as "linkTo", "crm_lead"."mining_id" as "mining_id", "crm_lead"."reveal_id" as "reveal_id", "crm_lead"."iap_enrich_done" as "iap_enrich_done", "crm_lead"."campaign_id" as "campaign_id", "crm_lead"."source_id" as "source_id", "crm_lead"."medium_id" as "medium_id", "crm_lead"."email_normalized" as "email_normalized", "crm_lead"."message_bounce" as "message_bounce", "crm_lead"."email_cc" as "email_cc", "crm_lead"."message_main_attachment_id" as "message_main_attachment_id", "crm_lead"."phone_sanitized" as "phone_sanitized", "crm_lead"."create_uid" as "create_uid", "crm_lead"."create_date" as "create_date", "crm_lead"."write_uid" as "write_uid", "crm_lead"."write_date" as "write_date" FROM "crm_lead" WHERE "crm_lead".id IN (1)
+ERROR: column crm_lead.linkTo does not exist
+LINE 1: ...as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"...
+                                                             ^
+ 
+2024-07-16 08:14:48,262 75147 ERROR d3 odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 696, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 370, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 358, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 919, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 544, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1370, in call_kw
+    return self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1362, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 404, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 391, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3027, in read
+    self._read(stored_fields)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3149, in _read
+    self.check_access_rule('read')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3363, in check_access_rule
+    invalid = self - self._filter_access_rules_python(operation)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3418, in _filter_access_rules_python
+    return self.sudo().filtered_domain(dom or [])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 5367, in filtered_domain
+    data = rec.mapped(key)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 5292, in mapped
+    recs = recs._fields[name].mapped(recs)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1109, in mapped
+    self.__get__(first(remaining), type(remaining))
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 2493, in __get__
+    return super().__get__(records, owner)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1019, in __get__
+    recs._fetch_field(self)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3078, in _fetch_field
+    self._read(fnames)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3145, in _read
+    cr.execute(query_str, params + [sub_ids])
+  File "<decorator-gen-5>", line 2, in execute
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 101, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 301, in execute
+    res = self._obj.execute(query, params)
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 652, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 317, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+psycopg2.errors.UndefinedColumn: column crm_lead.linkTo does not exist
+LINE 1: ...as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"...
+                                                             ^
+
+2024-07-16 08:14:48,278 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:48] "POST /web/dataset/call_kw/crm.lead/read HTTP/1.1" 200 - 2 0.020 0.065
+2024-07-16 08:14:48,315 75147 ERROR d3 odoo.sql_db: bad query: SELECT "crm_lead"."id" as "id", "crm_lead"."name" as "name", "crm_lead"."user_id" as "user_id", "crm_lead"."company_id" as "company_id", "crm_lead"."referred" as "referred", "crm_lead"."description" as "description", "crm_lead"."active" as "active", "crm_lead"."type" as "type", "crm_lead"."priority" as "priority", "crm_lead"."team_id" as "team_id", "crm_lead"."stage_id" as "stage_id", "crm_lead"."color" as "color", "crm_lead"."expected_revenue" as "expected_revenue", "crm_lead"."prorated_revenue" as "prorated_revenue", "crm_lead"."date_closed" as "date_closed", "crm_lead"."date_action_last" as "date_action_last", "crm_lead"."date_open" as "date_open", "crm_lead"."day_open" as "day_open", "crm_lead"."day_close" as "day_close", "crm_lead"."date_last_stage_update" as "date_last_stage_update", "crm_lead"."date_conversion" as "date_conversion", "crm_lead"."date_deadline" as "date_deadline", "crm_lead"."partner_id" as "partner_id", "crm_lead"."contact_name" as "contact_name", "crm_lead"."partner_name" as "partner_name", "crm_lead"."function" as "function", "crm_lead"."title" as "title", "crm_lead"."email_from" as "email_from", "crm_lead"."phone" as "phone", "crm_lead"."mobile" as "mobile", "crm_lead"."phone_state" as "phone_state", "crm_lead"."email_state" as "email_state", "crm_lead"."website" as "website", "crm_lead"."lang_id" as "lang_id", "crm_lead"."street" as "street", "crm_lead"."street2" as "street2", "crm_lead"."zip" as "zip", "crm_lead"."city" as "city", "crm_lead"."state_id" as "state_id", "crm_lead"."country_id" as "country_id", "crm_lead"."probability" as "probability", "crm_lead"."automated_probability" as "automated_probability", "crm_lead"."lost_reason" as "lost_reason", "crm_lead"."summary_revenue" as "summary_revenue", "crm_lead"."summary_profit_ebit" as "summary_profit_ebit", "crm_lead"."summary_purpose" as "summary_purpose", "crm_lead"."summary_state" as "summary_state", "crm_lead"."summary_registry_year" as "summary_registry_year", "crm_lead"."summary_parent_company" as "summary_parent_company", "crm_lead"."kpi_no_employees" as "kpi_no_employees", "crm_lead"."kpi_revenue_employees" as "kpi_revenue_employees", "crm_lead"."summary_net_sales_change" as "summary_net_sales_change", "crm_lead"."summary_profit_margin" as "summary_profit_margin", "crm_lead"."summary_solvency" as "summary_solvency", "crm_lead"."summary_cash_flow" as "summary_cash_flow", "crm_lead"."remarkCode" as "remarkCode", "crm_lead"."remarkDescription" as "remarkDescription", "crm_lead"."remarkDate" as "remarkDate", "crm_lead"."company_registry" as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"."linkTo" as "linkTo", "crm_lead"."mining_id" as "mining_id", "crm_lead"."reveal_id" as "reveal_id", "crm_lead"."iap_enrich_done" as "iap_enrich_done", "crm_lead"."campaign_id" as "campaign_id", "crm_lead"."source_id" as "source_id", "crm_lead"."medium_id" as "medium_id", "crm_lead"."email_normalized" as "email_normalized", "crm_lead"."message_bounce" as "message_bounce", "crm_lead"."email_cc" as "email_cc", "crm_lead"."message_main_attachment_id" as "message_main_attachment_id", "crm_lead"."phone_sanitized" as "phone_sanitized", "crm_lead"."create_uid" as "create_uid", "crm_lead"."create_date" as "create_date", "crm_lead"."write_uid" as "write_uid", "crm_lead"."write_date" as "write_date" FROM "crm_lead" WHERE "crm_lead".id IN (1)
+ERROR: column crm_lead.linkTo does not exist
+LINE 1: ...as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"...
+                                                             ^
+ 
+2024-07-16 08:14:48,315 75147 ERROR d3 odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 696, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 370, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 358, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 919, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 544, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/mail/controllers/main.py", line 151, in read_followers
+    request.env[res_model].browse(res_id).check_access_rule("read")
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3363, in check_access_rule
+    invalid = self - self._filter_access_rules_python(operation)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3418, in _filter_access_rules_python
+    return self.sudo().filtered_domain(dom or [])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 5367, in filtered_domain
+    data = rec.mapped(key)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 5292, in mapped
+    recs = recs._fields[name].mapped(recs)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1109, in mapped
+    self.__get__(first(remaining), type(remaining))
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 2493, in __get__
+    return super().__get__(records, owner)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1019, in __get__
+    recs._fetch_field(self)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3078, in _fetch_field
+    self._read(fnames)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3145, in _read
+    cr.execute(query_str, params + [sub_ids])
+  File "<decorator-gen-5>", line 2, in execute
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 101, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 301, in execute
+    res = self._obj.execute(query, params)
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 652, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 317, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+psycopg2.errors.UndefinedColumn: column crm_lead.linkTo does not exist
+LINE 1: ...as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"...
+                                                             ^
+
+2024-07-16 08:14:48,333 75147 ERROR d3 odoo.sql_db: bad query: SELECT "crm_lead"."id" as "id", "crm_lead"."name" as "name", "crm_lead"."user_id" as "user_id", "crm_lead"."company_id" as "company_id", "crm_lead"."referred" as "referred", "crm_lead"."description" as "description", "crm_lead"."active" as "active", "crm_lead"."type" as "type", "crm_lead"."priority" as "priority", "crm_lead"."team_id" as "team_id", "crm_lead"."stage_id" as "stage_id", "crm_lead"."color" as "color", "crm_lead"."expected_revenue" as "expected_revenue", "crm_lead"."prorated_revenue" as "prorated_revenue", "crm_lead"."date_closed" as "date_closed", "crm_lead"."date_action_last" as "date_action_last", "crm_lead"."date_open" as "date_open", "crm_lead"."day_open" as "day_open", "crm_lead"."day_close" as "day_close", "crm_lead"."date_last_stage_update" as "date_last_stage_update", "crm_lead"."date_conversion" as "date_conversion", "crm_lead"."date_deadline" as "date_deadline", "crm_lead"."partner_id" as "partner_id", "crm_lead"."contact_name" as "contact_name", "crm_lead"."partner_name" as "partner_name", "crm_lead"."function" as "function", "crm_lead"."title" as "title", "crm_lead"."email_from" as "email_from", "crm_lead"."phone" as "phone", "crm_lead"."mobile" as "mobile", "crm_lead"."phone_state" as "phone_state", "crm_lead"."email_state" as "email_state", "crm_lead"."website" as "website", "crm_lead"."lang_id" as "lang_id", "crm_lead"."street" as "street", "crm_lead"."street2" as "street2", "crm_lead"."zip" as "zip", "crm_lead"."city" as "city", "crm_lead"."state_id" as "state_id", "crm_lead"."country_id" as "country_id", "crm_lead"."probability" as "probability", "crm_lead"."automated_probability" as "automated_probability", "crm_lead"."lost_reason" as "lost_reason", "crm_lead"."summary_revenue" as "summary_revenue", "crm_lead"."summary_profit_ebit" as "summary_profit_ebit", "crm_lead"."summary_purpose" as "summary_purpose", "crm_lead"."summary_state" as "summary_state", "crm_lead"."summary_registry_year" as "summary_registry_year", "crm_lead"."summary_parent_company" as "summary_parent_company", "crm_lead"."kpi_no_employees" as "kpi_no_employees", "crm_lead"."kpi_revenue_employees" as "kpi_revenue_employees", "crm_lead"."summary_net_sales_change" as "summary_net_sales_change", "crm_lead"."summary_profit_margin" as "summary_profit_margin", "crm_lead"."summary_solvency" as "summary_solvency", "crm_lead"."summary_cash_flow" as "summary_cash_flow", "crm_lead"."remarkCode" as "remarkCode", "crm_lead"."remarkDescription" as "remarkDescription", "crm_lead"."remarkDate" as "remarkDate", "crm_lead"."company_registry" as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"."linkTo" as "linkTo", "crm_lead"."mining_id" as "mining_id", "crm_lead"."reveal_id" as "reveal_id", "crm_lead"."iap_enrich_done" as "iap_enrich_done", "crm_lead"."campaign_id" as "campaign_id", "crm_lead"."source_id" as "source_id", "crm_lead"."medium_id" as "medium_id", "crm_lead"."email_normalized" as "email_normalized", "crm_lead"."message_bounce" as "message_bounce", "crm_lead"."email_cc" as "email_cc", "crm_lead"."message_main_attachment_id" as "message_main_attachment_id", "crm_lead"."phone_sanitized" as "phone_sanitized", "crm_lead"."create_uid" as "create_uid", "crm_lead"."create_date" as "create_date", "crm_lead"."write_uid" as "write_uid", "crm_lead"."write_date" as "write_date" FROM "crm_lead" WHERE "crm_lead".id IN (1)
+ERROR: column crm_lead.linkTo does not exist
+LINE 1: ...as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"...
+                                                             ^
+ 
+2024-07-16 08:14:48,338 75147 ERROR d3 odoo.sql_db: bad query: SELECT "crm_lead"."id" as "id", "crm_lead"."name" as "name", "crm_lead"."user_id" as "user_id", "crm_lead"."company_id" as "company_id", "crm_lead"."referred" as "referred", "crm_lead"."description" as "description", "crm_lead"."active" as "active", "crm_lead"."type" as "type", "crm_lead"."priority" as "priority", "crm_lead"."team_id" as "team_id", "crm_lead"."stage_id" as "stage_id", "crm_lead"."color" as "color", "crm_lead"."expected_revenue" as "expected_revenue", "crm_lead"."prorated_revenue" as "prorated_revenue", "crm_lead"."date_closed" as "date_closed", "crm_lead"."date_action_last" as "date_action_last", "crm_lead"."date_open" as "date_open", "crm_lead"."day_open" as "day_open", "crm_lead"."day_close" as "day_close", "crm_lead"."date_last_stage_update" as "date_last_stage_update", "crm_lead"."date_conversion" as "date_conversion", "crm_lead"."date_deadline" as "date_deadline", "crm_lead"."partner_id" as "partner_id", "crm_lead"."contact_name" as "contact_name", "crm_lead"."partner_name" as "partner_name", "crm_lead"."function" as "function", "crm_lead"."title" as "title", "crm_lead"."email_from" as "email_from", "crm_lead"."phone" as "phone", "crm_lead"."mobile" as "mobile", "crm_lead"."phone_state" as "phone_state", "crm_lead"."email_state" as "email_state", "crm_lead"."website" as "website", "crm_lead"."lang_id" as "lang_id", "crm_lead"."street" as "street", "crm_lead"."street2" as "street2", "crm_lead"."zip" as "zip", "crm_lead"."city" as "city", "crm_lead"."state_id" as "state_id", "crm_lead"."country_id" as "country_id", "crm_lead"."probability" as "probability", "crm_lead"."automated_probability" as "automated_probability", "crm_lead"."lost_reason" as "lost_reason", "crm_lead"."summary_revenue" as "summary_revenue", "crm_lead"."summary_profit_ebit" as "summary_profit_ebit", "crm_lead"."summary_purpose" as "summary_purpose", "crm_lead"."summary_state" as "summary_state", "crm_lead"."summary_registry_year" as "summary_registry_year", "crm_lead"."summary_parent_company" as "summary_parent_company", "crm_lead"."kpi_no_employees" as "kpi_no_employees", "crm_lead"."kpi_revenue_employees" as "kpi_revenue_employees", "crm_lead"."summary_net_sales_change" as "summary_net_sales_change", "crm_lead"."summary_profit_margin" as "summary_profit_margin", "crm_lead"."summary_solvency" as "summary_solvency", "crm_lead"."summary_cash_flow" as "summary_cash_flow", "crm_lead"."remarkCode" as "remarkCode", "crm_lead"."remarkDescription" as "remarkDescription", "crm_lead"."remarkDate" as "remarkDate", "crm_lead"."company_registry" as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"."linkTo" as "linkTo", "crm_lead"."mining_id" as "mining_id", "crm_lead"."reveal_id" as "reveal_id", "crm_lead"."iap_enrich_done" as "iap_enrich_done", "crm_lead"."campaign_id" as "campaign_id", "crm_lead"."source_id" as "source_id", "crm_lead"."medium_id" as "medium_id", "crm_lead"."email_normalized" as "email_normalized", "crm_lead"."message_bounce" as "message_bounce", "crm_lead"."email_cc" as "email_cc", "crm_lead"."message_main_attachment_id" as "message_main_attachment_id", "crm_lead"."phone_sanitized" as "phone_sanitized", "crm_lead"."create_uid" as "create_uid", "crm_lead"."create_date" as "create_date", "crm_lead"."write_uid" as "write_uid", "crm_lead"."write_date" as "write_date" FROM "crm_lead" WHERE "crm_lead".id IN (1)
+ERROR: column crm_lead.linkTo does not exist
+LINE 1: ...as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"...
+                                                             ^
+ 
+2024-07-16 08:14:48,338 75147 ERROR d3 odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 696, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 370, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 358, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 919, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 544, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1370, in call_kw
+    return self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1362, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 400, in call_kw
+    result = _call_kw_model(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 373, in _call_kw_model
+    result = method(recs, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/mail/models/mail_message.py", line 1054, in message_fetch
+    return messages.message_format()
+  File "/usr/lib/python3/dist-packages/odoo/addons/sms/models/mail_message.py", line 43, in message_format
+    message_values = super(MailMessage, self).message_format()
+  File "/usr/lib/python3/dist-packages/odoo/addons/mail/models/mail_message.py", line 1098, in message_format
+    vals_list = self._message_format(self._get_message_format_fields())
+  File "/usr/lib/python3/dist-packages/odoo/addons/mail/models/mail_message.py", line 998, in _message_format
+    record_name = self.env[message_sudo.model] \
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1042, in __get__
+    self.compute_value(recs)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1198, in compute_value
+    records._compute_field_value(self)
+  File "/usr/lib/python3/dist-packages/odoo/addons/mail/models/mail_thread.py", line 410, in _compute_field_value
+    return super()._compute_field_value(field)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4082, in _compute_field_value
+    odoo.fields.determine(field.compute, self)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 82, in determine
+    return needle(*args)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1732, in _compute_display_name
+    names = dict(self.name_get())
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1750, in name_get
+    result.append((record.id, convert(record[name], record)))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 5716, in __getitem__
+    return self._fields[key].__get__(self, type(self))
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1019, in __get__
+    recs._fetch_field(self)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3078, in _fetch_field
+    self._read(fnames)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3145, in _read
+    cr.execute(query_str, params + [sub_ids])
+  File "<decorator-gen-5>", line 2, in execute
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 101, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 301, in execute
+    res = self._obj.execute(query, params)
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 652, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 317, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+psycopg2.errors.UndefinedColumn: column crm_lead.linkTo does not exist
+LINE 1: ...as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"...
+                                                             ^
+
+2024-07-16 08:14:48,340 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:48] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 7 0.073 0.069
+2024-07-16 08:14:48,340 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:48] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.076 0.065
+2024-07-16 08:14:48,341 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:48] "POST /mail/read_followers HTTP/1.1" 200 - 7 0.050 0.095
+2024-07-16 08:14:48,347 75147 ERROR d3 odoo.sql_db: bad query: SELECT "crm_lead"."id" as "id", "crm_lead"."name" as "name", "crm_lead"."user_id" as "user_id", "crm_lead"."company_id" as "company_id", "crm_lead"."referred" as "referred", "crm_lead"."description" as "description", "crm_lead"."active" as "active", "crm_lead"."type" as "type", "crm_lead"."priority" as "priority", "crm_lead"."team_id" as "team_id", "crm_lead"."stage_id" as "stage_id", "crm_lead"."color" as "color", "crm_lead"."expected_revenue" as "expected_revenue", "crm_lead"."prorated_revenue" as "prorated_revenue", "crm_lead"."date_closed" as "date_closed", "crm_lead"."date_action_last" as "date_action_last", "crm_lead"."date_open" as "date_open", "crm_lead"."day_open" as "day_open", "crm_lead"."day_close" as "day_close", "crm_lead"."date_last_stage_update" as "date_last_stage_update", "crm_lead"."date_conversion" as "date_conversion", "crm_lead"."date_deadline" as "date_deadline", "crm_lead"."partner_id" as "partner_id", "crm_lead"."contact_name" as "contact_name", "crm_lead"."partner_name" as "partner_name", "crm_lead"."function" as "function", "crm_lead"."title" as "title", "crm_lead"."email_from" as "email_from", "crm_lead"."phone" as "phone", "crm_lead"."mobile" as "mobile", "crm_lead"."phone_state" as "phone_state", "crm_lead"."email_state" as "email_state", "crm_lead"."website" as "website", "crm_lead"."lang_id" as "lang_id", "crm_lead"."street" as "street", "crm_lead"."street2" as "street2", "crm_lead"."zip" as "zip", "crm_lead"."city" as "city", "crm_lead"."state_id" as "state_id", "crm_lead"."country_id" as "country_id", "crm_lead"."probability" as "probability", "crm_lead"."automated_probability" as "automated_probability", "crm_lead"."lost_reason" as "lost_reason", "crm_lead"."summary_revenue" as "summary_revenue", "crm_lead"."summary_profit_ebit" as "summary_profit_ebit", "crm_lead"."summary_purpose" as "summary_purpose", "crm_lead"."summary_state" as "summary_state", "crm_lead"."summary_registry_year" as "summary_registry_year", "crm_lead"."summary_parent_company" as "summary_parent_company", "crm_lead"."kpi_no_employees" as "kpi_no_employees", "crm_lead"."kpi_revenue_employees" as "kpi_revenue_employees", "crm_lead"."summary_net_sales_change" as "summary_net_sales_change", "crm_lead"."summary_profit_margin" as "summary_profit_margin", "crm_lead"."summary_solvency" as "summary_solvency", "crm_lead"."summary_cash_flow" as "summary_cash_flow", "crm_lead"."remarkCode" as "remarkCode", "crm_lead"."remarkDescription" as "remarkDescription", "crm_lead"."remarkDate" as "remarkDate", "crm_lead"."company_registry" as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"."linkTo" as "linkTo", "crm_lead"."mining_id" as "mining_id", "crm_lead"."reveal_id" as "reveal_id", "crm_lead"."iap_enrich_done" as "iap_enrich_done", "crm_lead"."campaign_id" as "campaign_id", "crm_lead"."source_id" as "source_id", "crm_lead"."medium_id" as "medium_id", "crm_lead"."email_normalized" as "email_normalized", "crm_lead"."message_bounce" as "message_bounce", "crm_lead"."email_cc" as "email_cc", "crm_lead"."message_main_attachment_id" as "message_main_attachment_id", "crm_lead"."phone_sanitized" as "phone_sanitized", "crm_lead"."create_uid" as "create_uid", "crm_lead"."create_date" as "create_date", "crm_lead"."write_uid" as "write_uid", "crm_lead"."write_date" as "write_date" FROM "crm_lead" WHERE "crm_lead".id IN (1)
+ERROR: column crm_lead.linkTo does not exist
+LINE 1: ...as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"...
+                                                             ^
+ 
+2024-07-16 08:14:48,350 75147 ERROR d3 odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 696, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 370, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 358, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 919, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 544, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1370, in call_kw
+    return self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1362, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 404, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 391, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3027, in read
+    self._read(stored_fields)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3149, in _read
+    self.check_access_rule('read')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3363, in check_access_rule
+    invalid = self - self._filter_access_rules_python(operation)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3418, in _filter_access_rules_python
+    return self.sudo().filtered_domain(dom or [])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 5367, in filtered_domain
+    data = rec.mapped(key)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 5292, in mapped
+    recs = recs._fields[name].mapped(recs)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1109, in mapped
+    self.__get__(first(remaining), type(remaining))
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 2493, in __get__
+    return super().__get__(records, owner)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1019, in __get__
+    recs._fetch_field(self)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3078, in _fetch_field
+    self._read(fnames)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3145, in _read
+    cr.execute(query_str, params + [sub_ids])
+  File "<decorator-gen-5>", line 2, in execute
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 101, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 301, in execute
+    res = self._obj.execute(query, params)
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 652, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 317, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+psycopg2.errors.UndefinedColumn: column crm_lead.linkTo does not exist
+LINE 1: ...as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"...
+                                                             ^
+
+2024-07-16 08:14:48,353 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:48] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 23 0.128 0.061
+2024-07-16 08:14:48,357 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:48] "POST /web/dataset/call_kw/crm.lead/read HTTP/1.1" 200 - 1 0.003 0.060
+2024-07-16 08:14:48,378 75147 ERROR d3 odoo.sql_db: bad query: SELECT "crm_lead"."id" as "id", "crm_lead"."name" as "name", "crm_lead"."user_id" as "user_id", "crm_lead"."company_id" as "company_id", "crm_lead"."referred" as "referred", "crm_lead"."description" as "description", "crm_lead"."active" as "active", "crm_lead"."type" as "type", "crm_lead"."priority" as "priority", "crm_lead"."team_id" as "team_id", "crm_lead"."stage_id" as "stage_id", "crm_lead"."color" as "color", "crm_lead"."expected_revenue" as "expected_revenue", "crm_lead"."prorated_revenue" as "prorated_revenue", "crm_lead"."date_closed" as "date_closed", "crm_lead"."date_action_last" as "date_action_last", "crm_lead"."date_open" as "date_open", "crm_lead"."day_open" as "day_open", "crm_lead"."day_close" as "day_close", "crm_lead"."date_last_stage_update" as "date_last_stage_update", "crm_lead"."date_conversion" as "date_conversion", "crm_lead"."date_deadline" as "date_deadline", "crm_lead"."partner_id" as "partner_id", "crm_lead"."contact_name" as "contact_name", "crm_lead"."partner_name" as "partner_name", "crm_lead"."function" as "function", "crm_lead"."title" as "title", "crm_lead"."email_from" as "email_from", "crm_lead"."phone" as "phone", "crm_lead"."mobile" as "mobile", "crm_lead"."phone_state" as "phone_state", "crm_lead"."email_state" as "email_state", "crm_lead"."website" as "website", "crm_lead"."lang_id" as "lang_id", "crm_lead"."street" as "street", "crm_lead"."street2" as "street2", "crm_lead"."zip" as "zip", "crm_lead"."city" as "city", "crm_lead"."state_id" as "state_id", "crm_lead"."country_id" as "country_id", "crm_lead"."probability" as "probability", "crm_lead"."automated_probability" as "automated_probability", "crm_lead"."lost_reason" as "lost_reason", "crm_lead"."summary_revenue" as "summary_revenue", "crm_lead"."summary_profit_ebit" as "summary_profit_ebit", "crm_lead"."summary_purpose" as "summary_purpose", "crm_lead"."summary_state" as "summary_state", "crm_lead"."summary_registry_year" as "summary_registry_year", "crm_lead"."summary_parent_company" as "summary_parent_company", "crm_lead"."kpi_no_employees" as "kpi_no_employees", "crm_lead"."kpi_revenue_employees" as "kpi_revenue_employees", "crm_lead"."summary_net_sales_change" as "summary_net_sales_change", "crm_lead"."summary_profit_margin" as "summary_profit_margin", "crm_lead"."summary_solvency" as "summary_solvency", "crm_lead"."summary_cash_flow" as "summary_cash_flow", "crm_lead"."remarkCode" as "remarkCode", "crm_lead"."remarkDescription" as "remarkDescription", "crm_lead"."remarkDate" as "remarkDate", "crm_lead"."company_registry" as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"."linkTo" as "linkTo", "crm_lead"."mining_id" as "mining_id", "crm_lead"."reveal_id" as "reveal_id", "crm_lead"."iap_enrich_done" as "iap_enrich_done", "crm_lead"."campaign_id" as "campaign_id", "crm_lead"."source_id" as "source_id", "crm_lead"."medium_id" as "medium_id", "crm_lead"."email_normalized" as "email_normalized", "crm_lead"."message_bounce" as "message_bounce", "crm_lead"."email_cc" as "email_cc", "crm_lead"."message_main_attachment_id" as "message_main_attachment_id", "crm_lead"."phone_sanitized" as "phone_sanitized", "crm_lead"."create_uid" as "create_uid", "crm_lead"."create_date" as "create_date", "crm_lead"."write_uid" as "write_uid", "crm_lead"."write_date" as "write_date" FROM "crm_lead" WHERE "crm_lead".id IN (1)
+ERROR: column crm_lead.linkTo does not exist
+LINE 1: ...as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"...
+                                                             ^
+ 
+2024-07-16 08:14:48,379 75147 ERROR d3 odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 696, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 370, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 358, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 919, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 544, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/mail/controllers/main.py", line 151, in read_followers
+    request.env[res_model].browse(res_id).check_access_rule("read")
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3363, in check_access_rule
+    invalid = self - self._filter_access_rules_python(operation)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3418, in _filter_access_rules_python
+    return self.sudo().filtered_domain(dom or [])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 5367, in filtered_domain
+    data = rec.mapped(key)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 5292, in mapped
+    recs = recs._fields[name].mapped(recs)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1109, in mapped
+    self.__get__(first(remaining), type(remaining))
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 2493, in __get__
+    return super().__get__(records, owner)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1019, in __get__
+    recs._fetch_field(self)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3078, in _fetch_field
+    self._read(fnames)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3145, in _read
+    cr.execute(query_str, params + [sub_ids])
+  File "<decorator-gen-5>", line 2, in execute
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 101, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 301, in execute
+    res = self._obj.execute(query, params)
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 652, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 317, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+psycopg2.errors.UndefinedColumn: column crm_lead.linkTo does not exist
+LINE 1: ...as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"...
+                                                             ^
+
+2024-07-16 08:14:48,386 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:48] "POST /mail/read_followers HTTP/1.1" 200 - 1 0.000 0.030
+2024-07-16 08:14:48,387 75147 ERROR d3 odoo.sql_db: bad query: SELECT "crm_lead"."id" as "id", "crm_lead"."name" as "name", "crm_lead"."user_id" as "user_id", "crm_lead"."company_id" as "company_id", "crm_lead"."referred" as "referred", "crm_lead"."description" as "description", "crm_lead"."active" as "active", "crm_lead"."type" as "type", "crm_lead"."priority" as "priority", "crm_lead"."team_id" as "team_id", "crm_lead"."stage_id" as "stage_id", "crm_lead"."color" as "color", "crm_lead"."expected_revenue" as "expected_revenue", "crm_lead"."prorated_revenue" as "prorated_revenue", "crm_lead"."date_closed" as "date_closed", "crm_lead"."date_action_last" as "date_action_last", "crm_lead"."date_open" as "date_open", "crm_lead"."day_open" as "day_open", "crm_lead"."day_close" as "day_close", "crm_lead"."date_last_stage_update" as "date_last_stage_update", "crm_lead"."date_conversion" as "date_conversion", "crm_lead"."date_deadline" as "date_deadline", "crm_lead"."partner_id" as "partner_id", "crm_lead"."contact_name" as "contact_name", "crm_lead"."partner_name" as "partner_name", "crm_lead"."function" as "function", "crm_lead"."title" as "title", "crm_lead"."email_from" as "email_from", "crm_lead"."phone" as "phone", "crm_lead"."mobile" as "mobile", "crm_lead"."phone_state" as "phone_state", "crm_lead"."email_state" as "email_state", "crm_lead"."website" as "website", "crm_lead"."lang_id" as "lang_id", "crm_lead"."street" as "street", "crm_lead"."street2" as "street2", "crm_lead"."zip" as "zip", "crm_lead"."city" as "city", "crm_lead"."state_id" as "state_id", "crm_lead"."country_id" as "country_id", "crm_lead"."probability" as "probability", "crm_lead"."automated_probability" as "automated_probability", "crm_lead"."lost_reason" as "lost_reason", "crm_lead"."summary_revenue" as "summary_revenue", "crm_lead"."summary_profit_ebit" as "summary_profit_ebit", "crm_lead"."summary_purpose" as "summary_purpose", "crm_lead"."summary_state" as "summary_state", "crm_lead"."summary_registry_year" as "summary_registry_year", "crm_lead"."summary_parent_company" as "summary_parent_company", "crm_lead"."kpi_no_employees" as "kpi_no_employees", "crm_lead"."kpi_revenue_employees" as "kpi_revenue_employees", "crm_lead"."summary_net_sales_change" as "summary_net_sales_change", "crm_lead"."summary_profit_margin" as "summary_profit_margin", "crm_lead"."summary_solvency" as "summary_solvency", "crm_lead"."summary_cash_flow" as "summary_cash_flow", "crm_lead"."remarkCode" as "remarkCode", "crm_lead"."remarkDescription" as "remarkDescription", "crm_lead"."remarkDate" as "remarkDate", "crm_lead"."company_registry" as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"."linkTo" as "linkTo", "crm_lead"."mining_id" as "mining_id", "crm_lead"."reveal_id" as "reveal_id", "crm_lead"."iap_enrich_done" as "iap_enrich_done", "crm_lead"."campaign_id" as "campaign_id", "crm_lead"."source_id" as "source_id", "crm_lead"."medium_id" as "medium_id", "crm_lead"."email_normalized" as "email_normalized", "crm_lead"."message_bounce" as "message_bounce", "crm_lead"."email_cc" as "email_cc", "crm_lead"."message_main_attachment_id" as "message_main_attachment_id", "crm_lead"."phone_sanitized" as "phone_sanitized", "crm_lead"."create_uid" as "create_uid", "crm_lead"."create_date" as "create_date", "crm_lead"."write_uid" as "write_uid", "crm_lead"."write_date" as "write_date" FROM "crm_lead" WHERE "crm_lead".id IN (1)
+ERROR: column crm_lead.linkTo does not exist
+LINE 1: ...as "company_registry", "crm_lead"."vat" as "vat", "crm_lead"...
+                                                             ^
+ 
+2024-07-16 08:14:48,393 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:48] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 1 0.001 0.031
+2024-07-16 08:14:48,396 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:14:48] "POST /mail/thread/data HTTP/1.1" 200 - 3 0.008 0.019
+2024-07-16 08:15:18,743 75147 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:18] "POST /longpolling/poll HTTP/1.1" 200 - 21 0.013 50.107
+2024-07-16 08:15:30,351 75147 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-16 08:15:30,351 75147 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-16 08:15:30,789 75147 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+2024-07-16 08:15:30,804 75147 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 173, in loop
+    conn.poll()
+psycopg2.InterfaceError: connection already closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 187, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 182, in loop
+    event.set()
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 153, in __exit__
+    self.close()
+  File "<decorator-gen-6>", line 2, in close
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 101, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 366, in close
+    return self._close(False)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 392, in _close
+    self.rollback()
+  File "<decorator-gen-10>", line 2, in rollback
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 101, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 466, in rollback
+    result = self._cnx.rollback()
+psycopg2.InterfaceError: connection already closed
+2024-07-16 08:15:32,889 75201 INFO ? odoo: Odoo version 14.0-20231205 
+2024-07-16 08:15:32,890 75201 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-07-16 08:15:32,890 75201 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/14.0', '/usr/share/odoo-base', '/usr/share/odoo-crm'] 
+2024-07-16 08:15:32,890 75201 INFO ? odoo: database: odoo@default:default 
+2024-07-16 08:15:33,038 75201 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-07-16 08:15:33,143 75201 INFO ? odoo.service.server: HTTP service (werkzeug) running on odoo14.lxd:8069 
+2024-07-16 08:15:36,811 75201 INFO ? odoo.http: HTTP Configuring static files 
+2024-07-16 08:15:36,842 75201 INFO d3 odoo.modules.loading: loading 1 modules... 
+2024-07-16 08:15:36,860 75201 INFO d3 odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2024-07-16 08:15:36,875 75201 INFO d3 odoo.modules.loading: loading 38 modules... 
+2024-07-16 08:15:37,263 75201 WARNING d3 py.warnings: /usr/lib/python3/dist-packages/html5lib/_trie/_base.py:3: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping
+ 
+2024-07-16 08:15:37,335 75201 WARNING d3 odoo.models: The model res.partner.allabolag.mixin has no _description 
+2024-07-16 08:15:37,346 75201 INFO d3 odoo.modules.loading: 38 modules loaded in 0.47s, 0 queries (+0 extra) 
+2024-07-16 08:15:37,563 75201 INFO d3 odoo.modules.loading: Modules loaded. 
+2024-07-16 08:15:37,572 75201 INFO d3 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-16 08:15:37,582 75201 INFO d3 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-16 08:15:37,830 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:37] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 46 0.070 0.841
+2024-07-16 08:15:37,841 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:37] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 57 0.103 0.924
+2024-07-16 08:15:37,870 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:37] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.005
+2024-07-16 08:15:37,898 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:37] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.006
+2024-07-16 08:15:41,166 75201 INFO d3 odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['CRM: Allabolag'] to user admin #2 via 10.123.176.1 
+2024-07-16 08:15:41,167 75201 INFO d3 odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['CRM: Allabolag'] to user admin #2 via 10.123.176.1 
+2024-07-16 08:15:41,167 75201 INFO d3 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['CRM: Allabolag'] to user admin #2 via 10.123.176.1 
+2024-07-16 08:15:41,846 75201 INFO d3 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 10.123.176.1 
+2024-07-16 08:15:41,872 75201 INFO d3 odoo.modules.loading: loading 1 modules... 
+2024-07-16 08:15:41,885 75201 INFO d3 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-16 08:15:41,950 75201 INFO d3 odoo.modules.loading: updating modules list 
+2024-07-16 08:15:41,952 75201 INFO d3 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 10.123.176.1 
+2024-07-16 08:15:42,676 75201 INFO d3 odoo.modules.loading: loading 38 modules... 
+2024-07-16 08:15:42,746 75201 WARNING d3 odoo.models: The model res.partner.allabolag.mixin has no _description 
+2024-07-16 08:15:42,746 75201 INFO d3 odoo.modules.loading: Loading module crm_allabolag (35/38) 
+2024-07-16 08:15:42,847 75201 INFO d3 odoo.modules.registry: module crm_allabolag: creating or updating database tables 
+2024-07-16 08:15:42,869 75201 WARNING d3 odoo.addons.base.models.ir_model: Two fields (revenue_to, revenue_from) of crm.allabolag.mining() have the same label: Revenue. 
+2024-07-16 08:15:42,963 75201 INFO d3 odoo.modules.loading: loading crm_allabolag/views/views.xml 
+2024-07-16 08:15:43,006 75201 INFO d3 odoo.modules.loading: loading crm_allabolag/wizard/crm_allabolag_mining_views.xml 
+2024-07-16 08:15:43,033 75201 INFO d3 odoo.modules.loading: loading crm_allabolag/security/ir.model.access.csv 
+2024-07-16 08:15:43,061 75201 INFO d3 odoo.modules.loading: Module crm_allabolag loaded in 0.31s, 169 queries 
+2024-07-16 08:15:43,063 75201 INFO d3 odoo.modules.loading: 38 modules loaded in 0.39s, 169 queries (+0 extra) 
+2024-07-16 08:15:43,199 75201 INFO d3 odoo.modules.registry: verifying fields for every extended model 
+2024-07-16 08:15:43,369 75201 INFO d3 odoo.modules.loading: Modules loaded. 
+2024-07-16 08:15:43,375 75201 INFO d3 odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-07-16 08:15:43,378 75201 INFO d3 odoo.modules.registry: Registry changed, signaling through the database 
+2024-07-16 08:15:43,380 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:43] "POST /web/dataset/call_button HTTP/1.1" 200 - 2712 0.888 1.335
+2024-07-16 08:15:43,448 75201 INFO d3 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-16 08:15:43,968 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:43] "GET /web HTTP/1.1" 200 - 376 0.151 0.370
+2024-07-16 08:15:44,226 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:44] "GET /web/content/72-e18b4e6/web.assets_backend.js HTTP/1.1" 304 - 2 0.002 0.021
+2024-07-16 08:15:44,232 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:44] "GET /web/content/71-e18b4e6/web.assets_backend.css HTTP/1.1" 304 - 2 0.006 0.019
+2024-07-16 08:15:44,241 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:44] "GET /web/webclient/load_menus/d39427a17d4839ebcf8a9e8965a29afc233d4a32c1623a50d4a7b4876d13119f HTTP/1.1" 200 - 1 0.001 0.006
+2024-07-16 08:15:44,435 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:44] "GET /web/webclient/qweb/dc93fe6fe290890bf9d6620058487b4fb7ef730bfe9edc910152fed3e11039fd?mods=base,web,base_setup,bus,web_tour,mail,sales_team,calendar,resource,utm,contacts,web_editor,http_routing,auth_signup,portal,digest,crm,auth_totp,auth_totp_portal,base_import,iap,mail_bot,partner_autocomplete,partner_company_registry,sms,snailmail,web_kanban_gauge,web_unsplash HTTP/1.1" 200 - 1 0.000 0.033
+2024-07-16 08:15:44,607 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:44] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?mods=base%2Cweb%2Cbase_setup%2Cbus%2Cweb_tour%2Cmail%2Csales_team%2Ccalendar%2Cresource%2Cutm%2Ccontacts%2Cweb_editor%2Chttp_routing%2Cauth_signup%2Cportal%2Cdigest%2Ccrm%2Cauth_totp%2Cauth_totp_portal%2Cbase_import%2Ciap%2Cmail_bot%2Cpartner_autocomplete%2Cpartner_company_registry%2Csms%2Csnailmail%2Cweb_kanban_gauge%2Cweb_unsplash&lang=en_US HTTP/1.1" 200 - 3 0.001 0.004
+2024-07-16 08:15:44,754 75201 INFO ? werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:44] "GET /web/static/src/xml/debug.xml?debug=1721117744678 HTTP/1.1" 200 - - - -
+2024-07-16 08:15:44,891 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:44] "POST /web/dataset/call_kw/ir.rule/check_access_rights HTTP/1.1" 200 - 1 0.009 0.063
+2024-07-16 08:15:44,908 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:44] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 13 0.101 0.049
+2024-07-16 08:15:44,910 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:44] "POST /web/dataset/call_kw/ir.model.access/check_access_rights HTTP/1.1" 200 - 1 0.001 0.082
+2024-07-16 08:15:44,915 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:44] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 304 - 11 0.087 0.041
+2024-07-16 08:15:44,926 75201 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-07-16 08:15:44,937 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:44] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 2 0.005 0.012
+2024-07-16 08:15:44,974 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:44] "POST /mail/init_messaging HTTP/1.1" 200 - 80 0.208 0.050
+2024-07-16 08:15:44,986 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:44] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.005
+2024-07-16 08:15:45,017 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:45] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.007 0.007
+2024-07-16 08:15:45,033 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:45] "POST /calendar/notify HTTP/1.1" 200 - 3 0.006 0.007
+2024-07-16 08:15:45,037 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:45] "POST /web/action/load HTTP/1.1" 200 - 9 0.012 0.007
+2024-07-16 08:15:45,091 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:45] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 27 0.016 0.019
+2024-07-16 08:15:45,318 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:45] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 9 0.007 0.007
+2024-07-16 08:15:46,783 75201 INFO ? werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:46] "GET /web_tour/static/src/xml/tip.xml?debug=1721117746103 HTTP/1.1" 200 - - - -
+2024-07-16 08:15:50,226 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:50] "POST /web/action/load HTTP/1.1" 200 - 14 0.013 0.018
+2024-07-16 08:15:50,407 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:50] "POST /web/action/run HTTP/1.1" 200 - 67 0.048 0.055
+2024-07-16 08:15:50,715 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:50] "POST /web/dataset/call_kw/crm.lead/load_views HTTP/1.1" 200 - 193 0.110 0.171
+2024-07-16 08:15:50,802 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:50] "POST /web/dataset/call_kw/crm.lead/read_progress_bar HTTP/1.1" 200 - 7 0.018 0.015
+2024-07-16 08:15:50,808 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:50] "POST /web/dataset/call_kw/crm.lead/web_read_group HTTP/1.1" 200 - 12 0.028 0.013
+2024-07-16 08:15:50,875 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:50] "POST /web/dataset/search_read HTTP/1.1" 200 - 13 0.018 0.021
+2024-07-16 08:15:50,914 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:50] "POST /web/dataset/call_kw/crm.stage/read HTTP/1.1" 200 - 3 0.006 0.005
+2024-07-16 08:15:51,189 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:51] "GET /web/image/res.users/2/image_128 HTTP/1.1" 304 - 5 0.002 0.010
+2024-07-16 08:15:55,297 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:55] "POST /web/action/load HTTP/1.1" 200 - 41 0.028 0.037
+2024-07-16 08:15:55,364 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:55] "POST /web/dataset/call_kw/crm.allabolag.mining/load_views HTTP/1.1" 200 - 16 0.013 0.021
+2024-07-16 08:15:55,412 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:55] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.005
+2024-07-16 08:15:55,447 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:55] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.004
+2024-07-16 08:15:57,753 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:57] "POST /web/dataset/call_kw/mail.followers/load_views HTTP/1.1" 200 - 16 0.012 0.024
+2024-07-16 08:15:57,800 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:57] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 8 0.017 0.034
+2024-07-16 08:15:57,814 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:57] "POST /web/dataset/call_kw/mail.activity/load_views HTTP/1.1" 200 - 25 0.046 0.026
+2024-07-16 08:15:57,864 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:57] "POST /web/dataset/call_kw/crm.allabolag.mining/read HTTP/1.1" 200 - 13 0.010 0.013
+2024-07-16 08:15:57,910 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:57] "POST /web/dataset/call_kw/mail.followers/read HTTP/1.1" 200 - 3 0.003 0.010
+2024-07-16 08:15:57,920 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:57] "POST /web/dataset/call_kw/mail.message/read HTTP/1.1" 200 - 5 0.008 0.012
+2024-07-16 08:15:58,057 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:58] "POST /web/dataset/call_kw/crm.allabolag.mining/read HTTP/1.1" 200 - 2 0.009 0.036
+2024-07-16 08:15:58,099 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:58] "POST /mail/thread/data HTTP/1.1" 200 - 5 0.019 0.036
+2024-07-16 08:15:58,126 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:58] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 7 0.051 0.038
+2024-07-16 08:15:58,128 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:58] "POST /mail/read_followers HTTP/1.1" 200 - 12 0.075 0.033
+2024-07-16 08:15:58,138 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:58] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 26 0.108 0.028
+2024-07-16 08:15:58,210 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:58] "POST /web/dataset/call_kw/crm.allabolag.mining/read HTTP/1.1" 200 - 2 0.006 0.013
+2024-07-16 08:15:58,239 75201 INFO ? werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:58] "GET /web/static/src/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2024-07-16 08:15:58,264 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:58] "POST /mail/thread/data HTTP/1.1" 200 - 3 0.016 0.022
+2024-07-16 08:15:58,275 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:58] "POST /mail/read_followers HTTP/1.1" 200 - 8 0.038 0.038
+2024-07-16 08:15:58,276 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:58] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 7 0.039 0.026
+2024-07-16 08:15:58,284 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:58] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.003 0.027
+2024-07-16 08:15:58,303 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:58] "POST /web/dataset/call_kw/mail.message/mark_all_as_read HTTP/1.1" 200 - 5 0.011 0.022
+2024-07-16 08:15:58,325 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:58] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.000 0.015
+2024-07-16 08:15:58,327 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:15:58] "GET /web/image/res.partner/3/image_128 HTTP/1.1" 304 - 5 0.015 0.017
+2024-07-16 08:16:05,658 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=1 
+2024-07-16 08:16:06,588 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=2 
+2024-07-16 08:16:07,604 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=3 
+2024-07-16 08:16:08,575 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=4 
+2024-07-16 08:16:09,704 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=5 
+2024-07-16 08:16:10,627 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=6 
+2024-07-16 08:16:11,649 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=7 
+2024-07-16 08:16:12,679 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=8 
+2024-07-16 08:16:13,696 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=9 
+2024-07-16 08:16:14,523 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=10 
+2024-07-16 08:16:15,436 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=11 
+2024-07-16 08:16:16,359 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=12 
+2024-07-16 08:16:17,359 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=13 
+2024-07-16 08:16:18,268 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=14 
+2024-07-16 08:16:19,279 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=15 
+2024-07-16 08:16:20,355 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=16 
+2024-07-16 08:16:21,378 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=17 
+2024-07-16 08:16:22,406 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=18 
+2024-07-16 08:16:23,323 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=19 
+2024-07-16 08:16:24,346 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=20 
+2024-07-16 08:16:25,368 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=21 
+2024-07-16 08:16:26,298 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=22 
+2024-07-16 08:16:27,318 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=23 
+2024-07-16 08:16:28,236 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=24 
+2024-07-16 08:16:29,160 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=25 
+2024-07-16 08:16:30,079 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=26 
+2024-07-16 08:16:30,898 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=27 
+2024-07-16 08:16:31,825 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=28 
+2024-07-16 08:16:32,744 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=29 
+2024-07-16 08:16:33,772 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=30 
+2024-07-16 08:16:34,690 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=31 
+2024-07-16 08:16:34,931 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:16:34] "POST /longpolling/poll HTTP/1.1" 200 - 12 0.096 50.101
+2024-07-16 08:16:35,050 75201 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:16:35] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.007
+2024-07-16 08:16:35,612 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=32 
+2024-07-16 08:16:36,637 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=33 
+2024-07-16 08:16:37,758 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=34 
+2024-07-16 08:16:38,682 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=35 
+2024-07-16 08:16:39,605 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=36 
+2024-07-16 08:16:40,424 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=37 
+2024-07-16 08:16:41,451 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=38 
+2024-07-16 08:16:42,367 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=39 
+2024-07-16 08:16:43,290 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=40 
+2024-07-16 08:16:44,210 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=41 
+2024-07-16 08:16:45,030 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=42 
+2024-07-16 08:16:45,953 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=43 
+2024-07-16 08:16:46,784 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=44 
+2024-07-16 08:16:47,694 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=45 
+2024-07-16 08:16:48,512 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=46 
+2024-07-16 08:16:49,336 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=47 
+2024-07-16 08:16:50,598 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=48 
+2024-07-16 08:16:51,583 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=49 
+2024-07-16 08:16:53,179 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=50 
+2024-07-16 08:16:54,456 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=51 
+2024-07-16 08:16:55,782 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=52 
+2024-07-16 08:16:57,113 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=53 
+2024-07-16 08:16:58,471 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=54 
+2024-07-16 08:16:59,876 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=55 
+2024-07-16 08:17:01,407 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=56 
+2024-07-16 08:17:02,744 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=57 
+2024-07-16 08:17:04,488 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=58 
+2024-07-16 08:17:06,022 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=59 
+2024-07-16 08:17:07,354 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=60 
+2024-07-16 08:17:08,593 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=61 
+2024-07-16 08:17:09,914 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=62 
+2024-07-16 08:17:11,142 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=63 
+2024-07-16 08:17:12,576 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=64 
+2024-07-16 08:17:13,978 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=65 
+2024-07-16 08:17:15,341 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=66 
+2024-07-16 08:17:16,582 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=67 
+2024-07-16 08:17:18,023 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=68 
+2024-07-16 08:17:19,232 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=69 
+2024-07-16 08:17:20,669 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=70 
+2024-07-16 08:17:22,026 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=71 
+2024-07-16 08:17:23,313 75201 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-16 08:17:23,314 75201 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-16 08:17:23,329 75201 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=72 
+2024-07-16 08:17:26,611 75290 INFO ? odoo: Odoo version 14.0-20231205 
+2024-07-16 08:17:26,611 75290 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-07-16 08:17:26,611 75290 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/14.0', '/usr/share/odoo-base', '/usr/share/odoo-crm'] 
+2024-07-16 08:17:26,611 75290 INFO ? odoo: database: odoo@default:default 
+2024-07-16 08:17:26,827 75290 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-07-16 08:17:27,134 75290 INFO ? odoo.service.server: HTTP service (werkzeug) running on odoo14.lxd:8069 
+2024-07-16 08:17:28,629 75290 INFO d3 odoo.modules.loading: loading 1 modules... 
+2024-07-16 08:17:28,661 75290 INFO d3 odoo.modules.loading: 1 modules loaded in 0.03s, 0 queries (+0 extra) 
+2024-07-16 08:17:28,699 75290 INFO d3 odoo.modules.loading: loading 38 modules... 
+2024-07-16 08:17:28,873 75290 INFO ? odoo.http: HTTP Configuring static files 
+2024-07-16 08:17:29,315 75290 WARNING d3 py.warnings: /usr/lib/python3/dist-packages/html5lib/_trie/_base.py:3: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping
+ 
+2024-07-16 08:17:29,478 75290 WARNING d3 odoo.models: The model res.partner.allabolag.mixin has no _description 
+2024-07-16 08:17:29,498 75290 INFO d3 odoo.modules.loading: 38 modules loaded in 0.80s, 0 queries (+0 extra) 
+2024-07-16 08:17:29,724 75290 INFO d3 odoo.modules.loading: Modules loaded. 
+2024-07-16 08:17:29,754 75290 INFO d3 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-16 08:17:29,755 75290 INFO d3 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-16 08:17:29,755 75290 INFO d3 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-16 08:17:29,755 75290 INFO d3 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-16 08:17:29,755 75290 INFO d3 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-16 08:17:29,829 75290 INFO d3 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-16 08:17:30,257 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:17:30] "POST /web/dataset/call_kw/crm.allabolag.mining/read HTTP/1.1" 200 - 8 0.109 1.273
+2024-07-16 08:17:30,301 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:17:30] "POST /web/dataset/call_kw/crm.allabolag.mining/read HTTP/1.1" 200 - 2 0.032 1.618
+2024-07-16 08:17:30,314 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:17:30] "POST /mail/thread/data HTTP/1.1" 200 - 6 0.073 1.599
+2024-07-16 08:17:30,327 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:17:30] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 9 0.116 1.583
+2024-07-16 08:17:30,427 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:17:30] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 9 0.114 1.708
+2024-07-16 08:17:30,435 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:17:30] "POST /mail/thread/data HTTP/1.1" 200 - 3 0.031 0.048
+2024-07-16 08:17:30,460 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:17:30] "POST /mail/read_followers HTTP/1.1" 200 - 17 0.149 0.044
+2024-07-16 08:17:30,472 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:17:30] "POST /mail/read_followers HTTP/1.1" 200 - 34 0.254 1.628
+2024-07-16 08:17:30,473 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:17:30] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 7 0.084 0.054
+2024-07-16 08:17:30,483 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:17:30] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.002 0.039
+2024-07-16 08:17:30,496 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:17:30] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.007 0.015
+2024-07-16 08:17:30,497 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:17:30] "POST /longpolling/im_status HTTP/1.1" 200 - 9 0.084 0.043
+2024-07-16 08:17:30,620 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:17:30] "POST /web/webclient/version_info HTTP/1.1" 200 - 1 0.000 0.003
+2024-07-16 08:17:32,310 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=1 
+2024-07-16 08:17:33,328 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=2 
+2024-07-16 08:17:34,079 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=3 
+2024-07-16 08:17:35,041 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=4 
+2024-07-16 08:17:35,922 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=5 
+2024-07-16 08:17:36,842 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=6 
+2024-07-16 08:17:37,765 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=7 
+2024-07-16 08:17:38,791 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=8 
+2024-07-16 08:17:39,714 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=9 
+2024-07-16 08:17:40,631 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=10 
+2024-07-16 08:17:41,757 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=11 
+2024-07-16 08:17:42,679 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=12 
+2024-07-16 08:17:43,708 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=13 
+2024-07-16 08:17:44,624 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=14 
+2024-07-16 08:17:46,677 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=15 
+2024-07-16 08:17:47,905 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=16 
+2024-07-16 08:17:48,928 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=17 
+2024-07-16 08:17:49,858 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=18 
+2024-07-16 08:17:51,563 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=19 
+2024-07-16 08:17:52,428 75290 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-07-16 08:17:52,502 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=20 
+2024-07-16 08:17:53,432 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=21 
+2024-07-16 08:17:54,369 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=22 
+2024-07-16 08:17:55,383 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=23 
+2024-07-16 08:17:56,296 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=24 
+2024-07-16 08:17:57,324 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=25 
+2024-07-16 08:17:58,347 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=26 
+2024-07-16 08:17:59,168 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=27 
+2024-07-16 08:18:00,093 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=28 
+2024-07-16 08:18:01,109 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=29 
+2024-07-16 08:18:02,134 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=30 
+2024-07-16 08:18:03,056 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=31 
+2024-07-16 08:18:03,982 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=32 
+2024-07-16 08:18:05,001 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=33 
+2024-07-16 08:18:05,831 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=34 
+2024-07-16 08:18:06,644 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=35 
+2024-07-16 08:18:07,670 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=36 
+2024-07-16 08:18:08,484 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=37 
+2024-07-16 08:18:09,407 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=38 
+2024-07-16 08:18:10,329 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=39 
+2024-07-16 08:18:11,151 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=40 
+2024-07-16 08:18:12,071 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=41 
+2024-07-16 08:18:13,193 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=42 
+2024-07-16 08:18:13,955 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=43 
+2024-07-16 08:18:15,038 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=44 
+2024-07-16 08:18:15,865 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=45 
+2024-07-16 08:18:16,881 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=46 
+2024-07-16 08:18:17,699 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=47 
+2024-07-16 08:18:18,622 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=48 
+2024-07-16 08:18:19,564 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=49 
+2024-07-16 08:18:20,551 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:18:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.012 0.009
+2024-07-16 08:18:21,185 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=50 
+2024-07-16 08:18:22,517 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=51 
+2024-07-16 08:18:23,842 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=52 
+2024-07-16 08:18:25,791 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=53 
+2024-07-16 08:18:27,220 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=54 
+2024-07-16 08:18:28,662 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=55 
+2024-07-16 08:18:30,165 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=56 
+2024-07-16 08:18:31,528 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=57 
+2024-07-16 08:18:32,855 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=58 
+2024-07-16 08:18:34,252 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=59 
+2024-07-16 08:18:35,983 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=60 
+2024-07-16 08:18:37,564 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=61 
+2024-07-16 08:18:39,201 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=62 
+2024-07-16 08:18:40,634 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=63 
+2024-07-16 08:18:42,375 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=64 
+2024-07-16 08:18:42,432 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:18:42] "POST /longpolling/poll HTTP/1.1" 200 - 19 0.013 50.022
+2024-07-16 08:18:43,914 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=65 
+2024-07-16 08:18:45,508 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=66 
+2024-07-16 08:18:47,089 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=67 
+2024-07-16 08:18:48,938 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=68 
+2024-07-16 08:18:50,466 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=69 
+2024-07-16 08:18:51,904 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=70 
+2024-07-16 08:18:53,335 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=71 
+2024-07-16 08:18:54,727 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=72 
+2024-07-16 08:18:56,419 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=73 
+2024-07-16 08:18:57,944 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=74 
+2024-07-16 08:18:59,378 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=75 
+2024-07-16 08:19:00,806 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=76 
+2024-07-16 08:19:02,036 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=77 
+2024-07-16 08:19:03,367 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=78 
+2024-07-16 08:19:04,802 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=79 
+2024-07-16 08:19:06,067 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=80 
+2024-07-16 08:19:07,399 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=81 
+2024-07-16 08:19:08,695 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=82 
+2024-07-16 08:19:09,919 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=83 
+2024-07-16 08:19:11,355 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=84 
+2024-07-16 08:19:11,583 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:19:11] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2024-07-16 08:19:12,807 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=85 
+2024-07-16 08:19:14,096 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=86 
+2024-07-16 08:19:15,339 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=87 
+2024-07-16 08:19:16,759 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=88 
+2024-07-16 08:19:18,125 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=89 
+2024-07-16 08:19:19,745 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=90 
+2024-07-16 08:19:21,670 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=91 
+2024-07-16 08:19:23,193 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=92 
+2024-07-16 08:19:24,842 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=93 
+2024-07-16 08:19:26,140 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=94 
+2024-07-16 08:19:27,767 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=95 
+2024-07-16 08:19:29,674 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=96 
+2024-07-16 08:19:31,217 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=97 
+2024-07-16 08:19:32,479 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:19:32] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.004 50.017
+2024-07-16 08:19:32,855 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=98 
+2024-07-16 08:19:34,813 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=99 
+2024-07-16 08:19:36,386 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=100 
+2024-07-16 08:19:37,777 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=101 
+2024-07-16 08:19:39,409 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=102 
+2024-07-16 08:19:40,740 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=103 
+2024-07-16 08:19:42,174 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=104 
+2024-07-16 08:19:43,913 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=105 
+2024-07-16 08:19:45,375 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=106 
+2024-07-16 08:19:47,087 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=107 
+2024-07-16 08:19:48,726 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=108 
+2024-07-16 08:19:50,171 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=109 
+2024-07-16 08:19:51,799 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=110 
+2024-07-16 08:19:53,236 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=111 
+2024-07-16 08:19:54,872 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=112 
+2024-07-16 08:19:56,305 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=113 
+2024-07-16 08:19:57,653 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=114 
+2024-07-16 08:19:59,067 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=115 
+2024-07-16 08:20:00,502 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=116 
+2024-07-16 08:20:01,940 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=117 
+2024-07-16 08:20:03,375 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=118 
+2024-07-16 08:20:03,777 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:20:03] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2024-07-16 08:20:04,907 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=119 
+2024-07-16 08:20:06,239 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=120 
+2024-07-16 08:20:07,636 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=121 
+2024-07-16 08:20:08,957 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=122 
+2024-07-16 08:20:10,346 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=123 
+2024-07-16 08:20:11,764 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=124 
+2024-07-16 08:20:13,136 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=125 
+2024-07-16 08:20:14,811 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=126 
+2024-07-16 08:20:16,253 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=127 
+2024-07-16 08:20:17,692 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=128 
+2024-07-16 08:20:19,050 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=129 
+2024-07-16 08:20:20,585 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=130 
+2024-07-16 08:20:22,006 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=131 
+2024-07-16 08:20:23,336 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=132 
+2024-07-16 08:20:23,594 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:20:23] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.005 50.015
+2024-07-16 08:20:24,675 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=133 
+2024-07-16 08:20:26,044 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=134 
+2024-07-16 08:20:27,228 75290 INFO d3 allabolag.list: /GET https://www.allabolag.se//bransch/bank-finans-forsakring/14/_/xb/AB/xl/5/?page=135 
+2024-07-16 08:20:27,241 75290 WARNING ? odoo.service.server: Thread <Thread(odoo.service.http.request.140453550749440, started 140453550749440)> virtual real time limit (174/120s) reached. 
+2024-07-16 08:20:27,242 75290 INFO ? odoo.service.server: Dumping stacktrace of limit exceeding threads before reloading 
+2024-07-16 08:20:27,267 75290 INFO ? odoo.tools.misc: 
+# Thread: <Thread(odoo.service.http.request.140453550749440, started 140453550749440)> (db:d3) (uid:2) (url:http://10.123.176.216:8069/web/dataset/call_button)
+File: "/usr/lib/python3.8/threading.py", line 890, in _bootstrap
+  self._bootstrap_inner()
+File: "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+  self.run()
+File: "/usr/lib/python3.8/threading.py", line 870, in run
+  self._target(*self._args, **self._kwargs)
+File: "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+  self.finish_request(request, client_address)
+File: "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+  self.RequestHandlerClass(request, client_address, self)
+File: "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+  self.handle()
+File: "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 329, in handle
+  rv = BaseHTTPRequestHandler.handle(self)
+File: "/usr/lib/python3.8/http/server.py", line 427, in handle
+  self.handle_one_request()
+File: "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 364, in handle_one_request
+  return self.run_wsgi()
+File: "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 306, in run_wsgi
+  execute(self.server.app)
+File: "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 294, in execute
+  application_iter = app(environ, start_response)
+File: "/usr/lib/python3/dist-packages/odoo/service/server.py", line 441, in app
+  return self.app(e, s)
+File: "/usr/lib/python3/dist-packages/odoo/service/wsgi_server.py", line 113, in application
+  return application_unproxied(environ, start_response)
+File: "/usr/lib/python3/dist-packages/odoo/service/wsgi_server.py", line 88, in application_unproxied
+  result = odoo.http.root(environ, start_response)
+File: "/usr/lib/python3/dist-packages/odoo/http.py", line 1298, in __call__
+  return self.dispatch(environ, start_response)
+File: "/usr/lib/python3/dist-packages/odoo/http.py", line 1264, in __call__
+  return self.app(environ, start_wrapped)
+File: "/usr/lib/python3/dist-packages/werkzeug/middleware/shared_data.py", line 220, in __call__
+  return self.app(environ, start_response)
+File: "/usr/lib/python3/dist-packages/odoo/http.py", line 1489, in dispatch
+  result = ir_http._dispatch()
+File: "/usr/lib/python3/dist-packages/odoo/addons/auth_signup/models/ir_http.py", line 19, in _dispatch
+  return super(Http, cls)._dispatch()
+File: "/usr/lib/python3/dist-packages/odoo/addons/web_editor/models/ir_http.py", line 21, in _dispatch
+  return super(IrHttp, cls)._dispatch()
+File: "/usr/lib/python3/dist-packages/odoo/addons/utm/models/ir_http.py", line 29, in _dispatch
+  response = super(IrHttp, cls)._dispatch()
+File: "/usr/lib/python3/dist-packages/odoo/addons/http_routing/models/ir_http.py", line 512, in _dispatch
+  result = super(IrHttp, cls)._dispatch()
+File: "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 237, in _dispatch
+  result = request.dispatch()
+File: "/usr/lib/python3/dist-packages/odoo/http.py", line 696, in dispatch
+  result = self._call_function(**self.params)
+File: "/usr/lib/python3/dist-packages/odoo/http.py", line 370, in _call_function
+  return checked_call(self.db, *args, **kwargs)
+File: "/usr/lib/python3/dist-packages/odoo/service/model.py", line 94, in wrapper
+  return f(dbname, *args, **kwargs)
+File: "/usr/lib/python3/dist-packages/odoo/http.py", line 358, in checked_call
+  result = self.endpoint(*a, **kw)
+File: "/usr/lib/python3/dist-packages/odoo/http.py", line 919, in __call__
+  return self.method(*args, **kw)
+File: "/usr/lib/python3/dist-packages/odoo/http.py", line 544, in response_wrap
+  response = f(*args, **kw)
+File: "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1374, in call_button
+  action = self._call_kw(model, method, args, kwargs)
+File: "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1362, in _call_kw
+  return call_kw(request.env[model], method, args, kwargs)
+File: "/usr/lib/python3/dist-packages/odoo/api.py", line 404, in call_kw
+  result = _call_kw_multi(method, model, args, kwargs)
+File: "/usr/lib/python3/dist-packages/odoo/api.py", line 391, in _call_kw_multi
+  result = method(recs, *args, **kwargs)
+File: "/usr/share/odoo-crm/crm_allabolag/wizard/crm_allabolag_mining.py", line 245, in action_submit
+  for item in iter_list(
+File: "/usr/local/lib/python3.8/dist-packages/allabolag/list.py", line 27, in iter_list
+  r = requests.get(url, headers=headers)
+File: "/usr/local/lib/python3.8/dist-packages/requests/api.py", line 73, in get
+  return request("get", url, params=params, **kwargs)
+File: "/usr/local/lib/python3.8/dist-packages/requests/api.py", line 59, in request
+  return session.request(method=method, url=url, **kwargs)
+File: "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 589, in request
+  resp = self.send(prep, **send_kwargs)
+File: "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 703, in send
+  r = adapter.send(request, **kwargs)
+File: "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 667, in send
+  resp = conn.urlopen(
+File: "/usr/local/lib/python3.8/dist-packages/urllib3/connectionpool.py", line 597, in urlopen
+  httplib_response = self._make_request(conn, method, url,
+File: "/usr/local/lib/python3.8/dist-packages/urllib3/connectionpool.py", line 343, in _make_request
+  self._validate_conn(conn)
+File: "/usr/local/lib/python3.8/dist-packages/urllib3/connectionpool.py", line 839, in _validate_conn
+  conn.connect()
+File: "/usr/local/lib/python3.8/dist-packages/urllib3/connection.py", line 301, in connect
+  conn = self._new_conn()
+File: "/usr/local/lib/python3.8/dist-packages/urllib3/connection.py", line 158, in _new_conn
+  conn = connection.create_connection(
+File: "/usr/local/lib/python3.8/dist-packages/urllib3/util/connection.py", line 57, in create_connection
+  for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+File: "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+  for res in _socket.getaddrinfo(host, port, family, type, proto, flags): 
+2024-07-16 08:20:27,267 75290 INFO ? odoo.service.server: Initiating server reload 
+2024-07-16 08:20:27,320 75290 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 7 connections  
+2024-07-16 08:20:28,133 75290 INFO ? odoo: Odoo version 14.0-20231205 
+2024-07-16 08:20:28,133 75290 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-07-16 08:20:28,134 75290 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/14.0', '/usr/share/odoo-base', '/usr/share/odoo-crm'] 
+2024-07-16 08:20:28,134 75290 INFO ? odoo: database: odoo@default:default 
+2024-07-16 08:20:28,326 75290 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-07-16 08:20:28,435 75290 INFO ? odoo.service.server: HTTP service (werkzeug) running on odoo14.lxd:8069 
+2024-07-16 08:20:32,429 75290 INFO ? odoo.http: HTTP Configuring static files 
+2024-07-16 08:20:32,444 75290 INFO d3 odoo.modules.loading: loading 1 modules... 
+2024-07-16 08:20:32,459 75290 INFO d3 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-16 08:20:32,469 75290 INFO d3 odoo.modules.loading: loading 38 modules... 
+2024-07-16 08:20:32,808 75290 WARNING d3 py.warnings: /usr/lib/python3/dist-packages/html5lib/_trie/_base.py:3: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping
+ 
+2024-07-16 08:20:32,879 75290 WARNING d3 odoo.models: The model res.partner.allabolag.mixin has no _description 
+2024-07-16 08:20:32,890 75290 INFO d3 odoo.modules.loading: 38 modules loaded in 0.42s, 0 queries (+0 extra) 
+2024-07-16 08:20:33,105 75290 INFO d3 odoo.modules.loading: Modules loaded. 
+2024-07-16 08:20:33,111 75290 INFO d3 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-16 08:20:33,204 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:20:33] "POST /web/webclient/version_info HTTP/1.1" 200 - 18 0.015 0.756
+2024-07-16 08:20:44,081 75290 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-07-16 08:20:55,944 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:20:55] "POST /longpolling/im_status HTTP/1.1" 200 - 17 0.012 0.017
+2024-07-16 08:21:34,085 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:21:34] "POST /longpolling/poll HTTP/1.1" 200 - 20 0.014 50.036
+2024-07-16 08:21:47,981 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:21:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.006
+2024-07-16 08:22:26,151 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:22:26] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.004 50.014
+2024-07-16 08:22:40,023 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:22:40] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.005
+2024-07-16 08:23:13,590 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:13] "POST /web/dataset/call_kw/crm.allabolag.mining/read HTTP/1.1" 200 - 7 0.063 0.032
+2024-07-16 08:23:13,633 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:13] "POST /web/dataset/call_kw/crm.allabolag.mining/read HTTP/1.1" 200 - 2 0.027 0.058
+2024-07-16 08:23:13,652 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:13] "POST /mail/thread/data HTTP/1.1" 200 - 5 0.058 0.047
+2024-07-16 08:23:13,659 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:13] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 10 0.077 0.076
+2024-07-16 08:23:13,662 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:13] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 8 0.090 0.042
+2024-07-16 08:23:13,714 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:13] "POST /mail/read_followers HTTP/1.1" 200 - 12 0.126 0.087
+2024-07-16 08:23:13,723 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:13] "POST /mail/thread/data HTTP/1.1" 200 - 3 0.010 0.032
+2024-07-16 08:23:13,729 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:13] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.000 0.038
+2024-07-16 08:23:13,737 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:13] "POST /mail/read_followers HTTP/1.1" 200 - 8 0.085 0.038
+2024-07-16 08:23:13,744 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:13] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.008 0.035
+2024-07-16 08:23:13,751 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:13] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 7 0.054 0.027
+2024-07-16 08:23:17,266 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:17] "POST /web/dataset/call_button HTTP/1.1" 200 - 79 0.050 0.057
+2024-07-16 08:23:17,593 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:17] "POST /web/dataset/call_kw/crm.lead/load_views HTTP/1.1" 200 - 197 0.125 0.174
+2024-07-16 08:23:17,659 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:17] "POST /web/dataset/search_read HTTP/1.1" 200 - 10 0.012 0.015
+2024-07-16 08:23:18,212 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:18] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.004 50.014
+2024-07-16 08:23:21,864 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:21] "POST /web/dataset/call_kw/mail.followers/load_views HTTP/1.1" 200 - 15 0.032 0.018
+2024-07-16 08:23:21,911 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:21] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 21 0.051 0.030
+2024-07-16 08:23:21,913 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:21] "POST /web/dataset/call_kw/mail.activity/load_views HTTP/1.1" 200 - 25 0.058 0.028
+2024-07-16 08:23:22,022 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /web/dataset/call_kw/crm.lead/read HTTP/1.1" 200 - 52 0.030 0.035
+2024-07-16 08:23:22,072 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /web/dataset/call_kw/mail.followers/read HTTP/1.1" 200 - 3 0.005 0.007
+2024-07-16 08:23:22,085 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /web/dataset/call_kw/mail.message/read HTTP/1.1" 200 - 5 0.006 0.011
+2024-07-16 08:23:22,136 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /web/dataset/call_kw/crm.stage/search_read HTTP/1.1" 200 - 5 0.004 0.009
+2024-07-16 08:23:22,158 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /web/dataset/call_kw/crm.team/name_search HTTP/1.1" 200 - 10 0.011 0.012
+2024-07-16 08:23:22,177 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /web/dataset/call_kw/crm.stage/name_get HTTP/1.1" 200 - 2 0.002 0.005
+2024-07-16 08:23:22,226 75290 INFO ? werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "GET /web/static/src/xml/ribbon.xml?debug=1721118202200 HTTP/1.1" 200 - - - -
+2024-07-16 08:23:22,277 75290 INFO ? werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "GET /partner_autocomplete/static/lib/jsvat.js HTTP/1.1" 304 - - - -
+2024-07-16 08:23:22,374 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /web/dataset/call_kw/crm.lead/read HTTP/1.1" 200 - 3 0.017 0.018
+2024-07-16 08:23:22,450 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /mail/thread/data HTTP/1.1" 200 - 9 0.052 0.034
+2024-07-16 08:23:22,472 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 12 0.074 0.035
+2024-07-16 08:23:22,473 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /mail/read_followers HTTP/1.1" 200 - 14 0.087 0.037
+2024-07-16 08:23:22,475 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 27 0.118 0.030
+2024-07-16 08:23:22,564 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.004 0.013
+2024-07-16 08:23:22,572 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /web/dataset/call_kw/crm.lead/read HTTP/1.1" 200 - 3 0.024 0.032
+2024-07-16 08:23:22,580 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /mail/thread/data HTTP/1.1" 200 - 3 0.014 0.031
+2024-07-16 08:23:22,606 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /mail/read_followers HTTP/1.1" 200 - 9 0.058 0.028
+2024-07-16 08:23:22,608 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /web/dataset/call_kw/mail.message/mark_all_as_read HTTP/1.1" 200 - 5 0.013 0.021
+2024-07-16 08:23:22,610 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 7 0.047 0.035
+2024-07-16 08:23:22,619 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:22] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.000 0.006
+2024-07-16 08:23:32,060 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:23:32] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.006
+2024-07-16 08:24:14,075 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:24:14] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.004 50.014
+2024-07-16 08:24:22,613 75290 INFO d3 werkzeug: 10.123.176.1 - - [16/Jul/2024 08:24:22] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.006
+2024-07-16 08:24:32,744 75290 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-16 08:24:32,744 75290 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-16 08:24:33,122 75290 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 7 connections  
+2024-07-16 08:24:33,133 75290 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 173, in loop
+    conn.poll()
+psycopg2.InterfaceError: connection already closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 187, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 182, in loop
+    event.set()
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 153, in __exit__
+    self.close()
+  File "<decorator-gen-6>", line 2, in close
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 101, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 366, in close
+    return self._close(False)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 392, in _close
+    self.rollback()
+  File "<decorator-gen-10>", line 2, in rollback
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 101, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 466, in rollback
+    result = self._cnx.rollback()
+psycopg2.InterfaceError: connection already closed

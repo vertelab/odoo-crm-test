@@ -1,35 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data>
-        <record id="crm_lead_view_form" model="ir.ui.view">
-            <field name="name">crm.lead.form.allabolag</field>
-            <field name="model">crm.lead</field>
-            <field name="inherit_id" ref="crm.crm_lead_view_form" />
-            <field name="arch" type="xml">
-                <field name="team_id" position="after">
-                    <field name="company_registry" />
-                </field>
-                <notebook position="inside">
-                    <page name="financial_information" string="Financial Information">
-                        <group name="container_row_2">
-                            <group string="Summary" name="summary" priority="1">
-                                <field name="summary_revenue" />
-                                <field name="summary_profit_ebit" />
-                                <field name="summary_net_sales_change" />
-                                <field name="summary_profit_margin" />
-                                <field name="summary_solvency" />
-                                <field name="summary_cash_flow" />
-                            </group>
-                            <group name="kpi" string="KPI" priority="2">
-                                <field name="kpi_no_employees" />
-                            </group>
-                        </group>
-                        <group string="Business Summary" name="business_summary" priority="3">
-                            <field name="summary_purpose" />
-                        </group>
-                    </page>
-                </notebook>
-            </field>
-        </record>
-    </data>
+  <data>
+    <record id="crm_lead_view_form" model="ir.ui.view">
+      <field name="name">crm.lead.form.allabolag</field>
+      <field name="model">crm.lead</field>
+      <field name="inherit_id" ref="crm.crm_lead_view_form" />
+      <field name="arch" type="xml">
+        <field name="team_id" position="after">
+          <field name="company_registry" />
+        </field>
+        <field name="tag_ids" position="after">
+          <field name="linkTo" />
+        </field>
+        <notebook position="inside">
+          <page name="financial_information" string="Financial Information">
+            <group name="container_row_2">
+              <group string="Summary" name="summary" priority="1">
+                <field name="summary_revenue" />
+                <field name="summary_profit_ebit" />
+                <field name="summary_net_sales_change" />
+                <field name="summary_profit_margin" />
+                <field name="summary_solvency" />
+                <field name="summary_cash_flow" />
+              </group>
+              <group name="kpi" string="KPI" priority="2">
+                <field name="kpi_no_employees" />
+              </group>
+            </group>
+            <group string="Business Summary" name="business_summary" priority="3">
+              <field name="summary_purpose" />
+            </group>
+          </page>
+        </notebook>
+      </field>
+    </record>
+  </data>
 </odoo>

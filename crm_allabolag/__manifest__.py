@@ -36,9 +36,11 @@ Adding interesting and valuable internet-data to customer information in CRM.
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-crm',
-    'depends': ['crm', 'partner_allabolag' ],
+    'depends': ['crm', 'partner_allabolag' , 'utm'],
     'data': [
         'views/views.xml',
+        'wizard/crm_allabolag_mining_views.xml',
+        'security/ir.model.access.csv',
     ],
     'application': False,
 }

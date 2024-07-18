@@ -16,14 +16,15 @@ class CrmLead(models.Model):
     _inherit = ['crm.lead',"res.partner.allabolag.mixin"]
 
     company_registry = fields.Char(string='Company Registry', size=64, trim=True, )
-
+    vat = fields.Char(string='VAT', size=64, trim=True, )
+    linkTo = fields.Char(string='Link', size=64, trim=True, help="Link to Allabolag")
  
     def enrich_allabolag(self):
+        for crm in self:
+            _logger.warning('%s' % crm._fields['summary_revenue'])
+            if not crm.company_registry:
+                crm.company_registry=self.env['res.partner'].name2orgno(crm.partner_name)
 
-        _logger.warning('%s' % self._fields['summary_revenue'])
-        if not self.company_registry:
-            self.company_registry=self.env['res.partner'].name2orgno(self.partner_name)
-
-        record=self.env['res.partner'].partner_enrich_allabolag(self.company_registry)
-        self.write(record)
+            record=crm.env['res.partner'].partner_enrich_allabolag(crm.company_registry)
+            crm.write(record)
 
