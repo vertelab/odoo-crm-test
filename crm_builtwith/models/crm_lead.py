@@ -13,11 +13,10 @@ _logger = logging.getLogger(__name__)
 
 class CrmLead(models.Model):
     _name = 'crm.lead'
-    _inherit = ['crm.lead',"res.partner.allabolag.mixin"]
+    _inherit = ['crm.lead',"res.builtwith.mixin"]
 
     company_registry = fields.Char(string='Company Registry', size=64, trim=True, )
     vat = fields.Char(string='VAT', size=64, trim=True, )
-    linkTo = fields.Char(string='Link', size=64, trim=True, help="Link to Allabolag")
  
     def enrich_allabolag(self):
         for crm in self:
