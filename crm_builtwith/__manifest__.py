@@ -20,7 +20,7 @@
 ##############################################################################
 
 {
-    'name': 'CRM: Allabolag',
+    'name': 'CRM: Builtwith',
     'version': '14.0.0.0.0',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
     'summary': 'Adding valuable internet-data to CRM contacts.',
@@ -30,18 +30,15 @@ Adding interesting and valuable internet-data to customer information in CRM.
 """,
     #'sequence': '1',
     'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-crm/crm_allabolag',
+    'website': 'https://vertel.se/apps/odoo-crm/crm_builtwith',
     'images': ['static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-crm',
-    'depends': ['crm', 'partner_allabolag' , 'utm'],
+    'depends': ['crm_enrich_base', 'partner_builtwith'],
     'data': [
-        'data/ir_action.xml',
-        'views/views.xml',
-        'views/crm_allabolag_mining_views.xml',
-        'security/ir.model.access.csv',
+        'views/crm_lead_views.xml',
     ],
     'application': False,
 }

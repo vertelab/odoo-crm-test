@@ -23,14 +23,15 @@ class CrmLead(models.Model):
         for crm in self:
             _logger.warning('%s' % crm._fields['summary_revenue'])
             if not crm.company_registry:
-                crm.company_registry=self.env['res.partner'].name2orgno(crm.partner_name)
+                crm.company_registry,item=self.env['res.partner'].name2orgno(crm.partner_name or crm.name)
 
             record=crm.env['res.partner'].partner_enrich_allabolag(crm.company_registry)
             crm.write(record)
             
-    def enrich_crm(self):
+    def crm_enrich(self):
         for crm in self:
             crm.enrich_allabolag()
+        super(CrmLead,self).crm_enrich()
             
 
 

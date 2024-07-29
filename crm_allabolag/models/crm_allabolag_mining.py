@@ -378,7 +378,7 @@ class CrmAllabolagMining(models.Model):
                             break 
         except Exception as e:
             _logger.warning(f"Allabolag: An unexpected error occurred: {e}")    
-            self.message(_(f"An unexpected error occurred: {e}"))
+            self.message_post(body=_(f"An unexpected error occurred: {e}"),message_type='notification')
             self.state = 'error'
 
             return None
