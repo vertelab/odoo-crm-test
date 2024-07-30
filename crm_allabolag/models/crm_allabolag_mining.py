@@ -370,9 +370,12 @@ class CrmAllabolagMining(models.Model):
                                 'source_id': self.source_id.id if self.source_id else None,
                                 'medium_id': self.medium_id.id if self.medium_id else None,
                                 'expected_revenue': self.expected_revenue,
-                                'recurring_revenue': self.recurring_revenue,
-                                'recurring_plan': self.recurring_plan.id if self.recurring_plan else None,
-                            }) 
+                            })
+                        # ~ if self.recurring_revenue > 0:
+                            # ~ lead.recurring_revenue = self.recurring_revenue
+                                # ~ 'recurring_plan': self.recurring_plan.id if self.recurring_plan else None,
+
+
                         i += 1
                         if i > self.max_no_leads:
                             break 

@@ -20,7 +20,7 @@
 
 {
     'name': 'CRM: LinkedIn Leads',
-    'version': '14.0.0.0.1',
+    'version': '17.0.0.0.1',
     'summary': 'Creates partners from LinkedIn',
     'category': 'CRM',
     'description': """
