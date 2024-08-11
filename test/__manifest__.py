@@ -22,6 +22,8 @@
 
 odoo-crm-test
 
+hejsan
+
 
 
 {
