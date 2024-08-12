@@ -34,10 +34,9 @@
     'description': """
 Adding interesting and valuable internet-data to customer information in CRM. 
 """,
-    #'sequence': '1',
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-crm/crm_allabolag',
-    'images': ['static/description/banner.png'], # 560x280 px.
+    'images': ['static/description/banner.png'],
     'license': 'AGPL-3',
     'contributor': '',
     'maintainer': 'Vertel AB',
@@ -50,4 +49,3 @@ Adding interesting and valuable internet-data to customer information in CRM.
     ],
     'application': False,
 }
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
