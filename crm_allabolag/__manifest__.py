@@ -18,7 +18,6 @@
 #    along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-# version=14
 {
     'name': 'CRM: Allabolag',
     'version': '14.0.0.0.0',
