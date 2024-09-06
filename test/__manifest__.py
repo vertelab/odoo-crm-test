@@ -18,17 +18,12 @@
 #    along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-17.0
-
-odoo-crm-test
-
-hejsan
 
 
 
 {
     'name': 'CRM: Allabolag',
-    'version': '14.0.0.0.0',
+    'version': '1.0',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
     'summary': 'Adding valuable internet-data to CRM contacts.',
     'category': 'Website',

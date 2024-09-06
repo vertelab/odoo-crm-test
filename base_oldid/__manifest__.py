@@ -20,31 +20,27 @@
 ##############################################################################
 
 {
-    'name': 'Event Attendee Namebadges',
-    'version': '14.0.1.0',
+    'name': 'Website: Base OldID',
+    'version': '14.0.0.0.0',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': '',
-    'category': 'Event',
+    'summary': 'Show previous ID.',
+    'category': 'Website',
     'description': """
-    Event Attendee Namebadges using Glabels.
+    Show old ID.
     """,
     #'sequence': '1',
     'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-event/event-attendee-badges',
+    'website': 'https://vertel.se/apps/odoo-website/base_oldid',
     'images': ['static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
-    'contributor': '',
+    'contributor': 'Show old ID.',
     'maintainer': 'Vertel AB',
-    'repository': 'https://github.com/vertelab/odoo-event',
-    'depends': ['report_glabels','event'],
-    'external_dependencies': {
-
-    },
-    'data': [
-            'data/sale_order_glabel.xml',
-            'views/event_views.xml',
+    'repository': 'https://github.com/vertelab/odoo-website',
+    'depends': ['product'],
+    "data": [
+        "views/res_partner_view.xml",
     ],
-    'installable': 'True',
-    'application': 'False',
+    "application": False,
+    "installable": True,
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
