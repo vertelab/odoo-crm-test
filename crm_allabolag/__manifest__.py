@@ -20,7 +20,7 @@
 ##############################################################################
 {
     'name': 'CRM: Allabolag',
-    'version': '14.0',
+    'version': '1.0',
     'summary': 'Adding valuable internet-data to CRM contacts.',
     'category': 'Website',
     'description': """
