@@ -18,17 +18,25 @@
 #    along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
+16.0
+
+odoo-crm-test
+
+
+
 {
     'name': 'CRM: Allabolag',
-    'version': '16.0',
+    'version': '1.0',
+    # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
     'summary': 'Adding valuable internet-data to CRM contacts.',
     'category': 'Website',
     'description': """
 Adding interesting and valuable internet-data to customer information in CRM. 
 """,
+    #'sequence': '1',
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-crm/crm_allabolag',
-    'images': ['static/description/banner.png'],
+    'images': ['static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
     'maintainer': 'Vertel AB',
@@ -41,3 +49,4 @@ Adding interesting and valuable internet-data to customer information in CRM.
     ],
     'application': False,
 }
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
