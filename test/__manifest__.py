@@ -18,11 +18,9 @@
 #    along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-# 17.0
+17.0
 
-# odoo-crm-test
-
-
+odoo-crm-test
 
 
 
