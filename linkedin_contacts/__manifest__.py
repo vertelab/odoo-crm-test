@@ -20,18 +20,18 @@
 
 {
     'name': 'CRM: LinkedIn Leads',
-    'version': '14.0.0.0.1',
+    'version': "18.0.0.0.1",
     'summary': 'Creates partners from LinkedIn',
     'category': 'CRM',
     'description': """
         Creates partners from LinkedIn.
     """,
-    'author': 'Vertel AB',
+    'author': 'Vertel Sverige AB',
     'license': 'AGPL-3',
     'website': 'https://vertel.se/apps/odoo-crm/linkedin_contacts',
     'images': ['static/description/banner.png'],  # 560x280 px.
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-crm',
     'depends': ['base', 'base_setup'],
     'data': [
