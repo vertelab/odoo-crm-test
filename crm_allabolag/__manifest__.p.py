@@ -20,12 +20,14 @@
 ##############################################################################
 {
     'name': 'CRM: Allabolag',
-    # #if VERSION == "17.0"
+    # #if VERSION == "18.0"
+    'version': '18.0.1.0.0',
+    # #elif VERSION == "17.0"
     'version': '17.0',
     # #elif VERSION == "16.0"
     'version': '16.0',
     # #elif VERSION == "14.0"
-    'version': '18.0.1.0.0',
+    'version': '14.0',
     # #else
     'version': '1.0',
     # #endif
