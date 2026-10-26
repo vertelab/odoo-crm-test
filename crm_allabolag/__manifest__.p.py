@@ -20,17 +20,10 @@
 ##############################################################################
 {
     'name': 'CRM: Allabolag',
-    # #if VERSION == "18.0"
-    'version': '18.0.1.0.0',
-    # #elif VERSION == "17.0"
-    'version': '17.0',
-    # #elif VERSION == "16.0"
-    'version': '16.0',
-    # #elif VERSION == "14.0"
-    'version': '14.0',
-    # #else
-    'version': '1.0',
-    # #endif
+    'version': '1.0.0',
+    # Version ledger: 1 = Major. Non regressionable code. 2 = Minor. New features
+    # that are regressionable. 3 = Bug fixes.
+    # Odoo versionen skrivs ALDRIG här — Odoo prefixar själv (adapt_version).
     'summary': 'Adding valuable internet-data to CRM contacts.',
     'category': 'Website',
     'description': """
