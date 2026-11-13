@@ -1,0 +1,20 @@
+# Odoo CRM Test (vertelab/odoo-crm-test) — Python-beroenden
+#
+# Installeras av repo_apply tillsammans med alla andra
+# /usr/share/odoo-*/requirements.txt.
+#
+# Inventering 2026-11-13: filen saknades helt, men crm_allabolag (som ligger
+# i BÅDE detta repo och odoo-crm) importerar allabolag och beautifulsoup4 på
+# modulnivå. OBS: modulen finns i två repos med samma namn — repo-apply
+# dedupar på target-path, inte på modulnamn, så båda klonas. Den som ligger
+# först i addons_path vinner.
+
+allabolag
+beautifulsoup4
+
+# crm_builtwith — builtwith-API
+builtwith
+
+# crm_enrich_base — whois/dns-uppslag
+python-whois
+dnspython
